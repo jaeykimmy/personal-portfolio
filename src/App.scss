@@ -1,0 +1,25 @@
+.app{
+  height: 100vh;
+  
+  .sections{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: lightsalmon;
+    position: relative;
+    top: 70px;
+    //has it so when user navigates through topbar link, it has a smooth transition
+    scroll-behavior: smooth;
+    //makes sure it lands and snaps to each component
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; //for firedox
+    &::-webkit-scrollbar {
+      display:none; //for all other browsers
+    }
+    > *{
+      width: 100vw;
+      height: calc(100vh - 70px);
+      scroll-snap-align: start;
+    }
+  }
+
+}
