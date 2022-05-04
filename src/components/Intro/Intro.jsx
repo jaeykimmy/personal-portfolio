@@ -2,7 +2,9 @@ import React from 'react'
 import "./Intro.scss"
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
+
 export default function Intro() {
+
   return (
     <div className='intro' id="intro">
       <div className="left">
@@ -14,7 +16,7 @@ export default function Intro() {
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
           <h1>Jaeyoung Kim</h1>
-          <h3>Full Stack<span></span></h3>
+          <h3>Full Stack<span> Developer</span></h3>
         </div>
         <a href="portfolio">
           <KeyboardArrowDownIcon className={'arrow'}/>
