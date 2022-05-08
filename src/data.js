@@ -4,7 +4,7 @@ export const featuredPortfolio = [
       title: "Social Media App",
       img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-      src: "google.com"
+      src: "https://google.com"
     },
     {
       id: 2,
