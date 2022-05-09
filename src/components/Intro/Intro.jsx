@@ -18,7 +18,7 @@ export default function Intro() {
           <h1>Jaeyoung Kim</h1>
           <h3>Full Stack<span> Developer</span></h3>
         </div>
-        <a href="portfolio">
+        <a href="#portfolio">
           <KeyboardArrowDownIcon className={'arrow'}/>
         </a>
       </div>
