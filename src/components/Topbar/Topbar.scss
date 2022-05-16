@@ -3,13 +3,13 @@
 .topbar{
   width:100%;
   height: 70px;
-  background-color: white;
+  background: url(http://artem.anmedio.ru/dev/planet/space.jpg);
   color: $mainColor;
   position: fixed;
   top: 0;
   z-index: 3;
   transition: all 1s ease;
-
+  overflow: hidden;
   .wrapper{
     padding: 10px 30px;
     display: flex;
@@ -24,7 +24,7 @@
         font-size: 40px;
         font-weight: 700;
         text-decoration: none;
-        color: Salmon; //stops link from turning purple upon click
+        color: white; //stops link from turning purple upon click
         margin-right: 40px;
       }
       .itemContainer{
@@ -55,7 +55,7 @@
         span{
           width: 100%;
           height: 3px;
-          background-color: $mainColor;
+          background-color: white;
           transform-origin: left;
           transition: all 2s ease;
         }

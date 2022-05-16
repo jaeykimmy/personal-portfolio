@@ -2,31 +2,24 @@ import React, { useEffect } from 'react'
 import PortfolioList from '../PortfolioList/PortfolioList'
 import "./Portfolio.scss"
 import { useState } from 'react'
-import { featuredPortfolio, reactPortfolio, webPortfolio } from '../../data'
+import { reactPortfolio, webPortfolio } from '../../data'
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState('featured')
+  const [selected, setSelected] = useState('react')
   const [data, setData] = useState([])
   const list = [
-    {
-      id: "featured",
-      title: "Featured"
-    },
     {
       id: "react",
       title: "React"
     },
     {
       id: "web",
-      title: "Web"
+      title: "Web Apps"
     },
   ]
 
   useEffect(() => {
     switch (selected) {
-      case "featured":
-        setData(featuredPortfolio);
-        break;
       case "react":
         setData(reactPortfolio);
         break;
@@ -34,7 +27,7 @@ export default function Portfolio() {
         setData(webPortfolio);
         break;
       default:
-        setData(featuredPortfolio);
+        setData(reactPortfolio);
     }
   },[selected])
   return (
