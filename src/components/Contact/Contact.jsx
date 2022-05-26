@@ -1,5 +1,6 @@
 import { useRef, useState} from 'react'
 import "./Contact.scss"
+import Ufo from '../Ufo/Ufo';
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
@@ -21,7 +22,7 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="assets/shake.svg" alt="" />
+        <img src="assets/rocket.svg" alt="" />
       </div>
       <div className="right">
         <h2>Contact.</h2>
