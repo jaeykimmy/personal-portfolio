@@ -7,29 +7,32 @@ export default function Works() {
     {
       id: "1",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-      title: "React",
+      title: "Mentor Me",
       desc:
         "I completed a pair programming end-to-end React project using the MERN stack and created a React app based on my own passion - Pokemon",
       img:
         "https://raw.githubusercontent.com/rosemaryku/mentor-me/main/docs/search.gif",
+      src: "https://github.com/jaeykimmy/mentor_me"
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      title: "Scheduler",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "An interview scheduling application where the user can book, delete and edit their appointments. Built with React + Cypress and Jest for testing",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "assets/demo.gif",
+      src: "https://github.com/jaeykimmy/scheduler"
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      title: "Pokemon Speed Calculator",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "assets/speedcalc.gif",
+      src: "https://github.com/jaeykimmy/react-pokemon-calc"
     },
   ];
 
@@ -52,7 +55,7 @@ export default function Works() {
                 </div>
                 <h2>{data.title}</h2>
                 <p>{data.desc}</p>
-                <span>Projects</span>
+                <a href={data.src}><span>Project</span></a>
               </div>
             </div>
             <div className="right">
