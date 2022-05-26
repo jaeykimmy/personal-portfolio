@@ -19,7 +19,7 @@ export default function Works() {
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
       title: "Scheduler",
       desc:
-        "An interview scheduling application where the user can book, delete and edit their appointments. Built with React + Cypress and Jest for testing",
+        "An interview scheduling application where the user can book, delete and edit their appointments. Built with React, Cypress and Jest",
       img:
         "assets/demo.gif",
       src: "https://github.com/jaeykimmy/scheduler"

@@ -1,6 +1,13 @@
+@import "../../global.scss";
+
 .intro{
   
   display: flex;
+
+  @include mobile{
+    flex-direction: column;
+    align-items: center;
+  }
 
   .left{
     flex: 0.5; // flex shows the ratio the section will take up, flex with a value of 1 is 100% width
@@ -15,6 +22,7 @@
       align-items: flex-end;
       float: right;
       animation: rotatePlanet 150s infinite linear; 
+     
       img{
         height: 100%;
         display: flex;
@@ -51,16 +59,27 @@
       flex-direction: column;
       justify-content: center;
 
+      @include mobile{
+        padding-left: 0;
+      }
       h1{
         font-size: 60px;
         margin: 10px 0;
         color: yellow;
         text-indent: 30px;
+
+        @include mobile{
+        font-size: 40px;
+      }
       }
       h2 {
         font-size: 35px;
         color: skyblue;
         text-indent: 30px;
+
+        @include mobile{
+        font-size: 20px;
+      }
       }
       h3 {
         color: skyblue;
@@ -80,6 +99,9 @@
         0 50px 25px rgba(0, 0, 0, 0);
     }
   }
+  @include mobile{
+        font-size: 20px;
+      }
       }
       h4 {
         color: lime

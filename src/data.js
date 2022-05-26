@@ -58,12 +58,12 @@ export const featuredPortfolio = [
         "assets/tweet-text-box.png",
       src: "https://github.com/jaeykimmy/tweeter"
     },
-    {
-      id: 4,
-      title: "TinyApp",
-      img:
-        "assets/tinyapp.png",
-      src: "https://github.com/jaeykimmy/tinyapp"
-    },
+    // {
+    //   id: 4,
+    //   title: "TinyApp",
+    //   img:
+    //     "assets/tinyapp.png",
+    //   src: "https://github.com/jaeykimmy/tinyapp"
+    // },
     
   ];

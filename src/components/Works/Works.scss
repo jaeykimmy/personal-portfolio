@@ -1,3 +1,4 @@
+@import "../../global.scss";
 .works {
   // background-color: lightsalmon;
   display: flex;
@@ -10,6 +11,9 @@
     position: absolute;
     cursor: pointer;
 
+     @include mobile {
+      margin-top: 600px;
+    }
     &.left{
       left: 100px;
       transform: rotate(180deg);
@@ -19,6 +23,7 @@
       right: 100px;
 
     }
+    
   }
 
   .slider{
@@ -73,11 +78,19 @@
               font-size: 20px;
               color: black;
               overflow: hidden;
+
+              @include mobile{
+      font-size: 14px;
+    }
             }
             p{
               font-size: 13px;
               color: black;
               overflow: hidden;
+
+                  @include mobile{
+      font-size: 11px;
+    }
             }
             span{
               font-size: 12px;
