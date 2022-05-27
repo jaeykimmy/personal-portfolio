@@ -9,11 +9,13 @@
 
       @include mobile{
       margin-right: 20px;
-      overflow: hidden
+      overflow: hidden;
     }
 
       &.active{
         background-color: grey;
-        color: white
+        color: white;
+
+       
       }
     }

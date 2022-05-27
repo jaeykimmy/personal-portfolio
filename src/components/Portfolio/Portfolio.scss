@@ -23,11 +23,11 @@
     align-items: center;
     justify-content: center;
 
-    @include mobile{
-      margin: 20px;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+    // @include mobile{
+    //   margin: 20px;
+    //   flex-wrap: wrap;
+    //   justify-content: center;
+    // }
   }
 
   .container {
@@ -39,6 +39,8 @@
 
     @include mobile{
       width: 100%;
+      overflow: hidden;
+      // height: 100%
     }
 
     .item {
@@ -55,7 +57,11 @@
       transition: all .5s ease;
       cursor: pointer;
 
-     
+     @include mobile{
+      // width: 100%;
+      overflow: hidden;
+      height: 100%
+    }
 
       h3 {
         position: absolute;
