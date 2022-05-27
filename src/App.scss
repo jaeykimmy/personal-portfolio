@@ -1,3 +1,5 @@
+@import "./global.scss";
+
 .app{
   height: 100vh;
   
@@ -20,6 +22,9 @@
       width: 100vw;
       height: calc(100vh - 70px);
       scroll-snap-align: start;
+    }
+    @include mobile{
+      scroll-snap-type: none;
     }
   }
 
