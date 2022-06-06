@@ -1,6 +1,5 @@
 import { useRef, useState} from 'react'
 import "./Contact.scss"
-import Ufo from '../Ufo/Ufo';
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {

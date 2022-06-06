@@ -1,9 +1,7 @@
 import Topbar from "./components/Topbar/Topbar";
 import Intro from "./components/Intro/Intro";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Testimonials from "./components/Testimonials/Testimonials";
 import Works from "./components/Works/Works";
-import Ufo from "./components/Ufo/Ufo";
 import Contact from "./components/Contact/Contact"
 import "./App.scss"
 import { useState } from "react";

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Intro.scss"
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import clouds from './assets/clouds.png'
+import clouds from '../../assets/clouds.png'
 
 export default function Intro() {
 
