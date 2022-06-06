@@ -1,6 +1,7 @@
 import { useRef, useState} from 'react'
 import "./Contact.scss"
 import emailjs from '@emailjs/browser';
+import rocket from '../../assets/rocket.svg'
 
 export default function Contact() {
   const [message, setMessage] = useState(false);
@@ -21,7 +22,7 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="assets/rocket.svg" alt="" />
+        <img src={rocket} alt="" />
       </div>
       <div className="right">
         <h2>Contact.</h2>

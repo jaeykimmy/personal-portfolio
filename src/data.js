@@ -18,8 +18,7 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "Mentor Me",
-      img:
-        "assets/mentorme.png",
+      img: "assets/mentorme.png",
       src: "https://github.com/jaeykimmy/personal-portfolio"
     },
     {
