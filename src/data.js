@@ -19,6 +19,12 @@
       img: "personalport.png",
       src: "https://github.com/jaeykimmy/personal-portfolio"
     },
+    {
+      id: 3,
+      title: "Pokemon TCG Gallery",
+      img: "personalport.png",
+      src: "https://jaeykimmy.github.io/pokemontcg/"
+    },
   ];
   
   export const webPortfolio = [
