@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.f5ee8840.css",
-    "main.js": "/personal-portfolio/static/js/main.9203065e.js",
+    "main.css": "/personal-portfolio/static/css/main.d19f2e33.css",
+    "main.js": "/personal-portfolio/static/js/main.8055e70a.js",
+    "static/media/speedcalc.gif": "/personal-portfolio/static/media/speedcalc.672b2b066c07d2e604fe.gif",
+    "static/media/demo.gif": "/personal-portfolio/static/media/demo.8d6d11c359c2aa00fe25.gif",
+    "static/media/tweet-text-box.png": "/personal-portfolio/static/media/tweet-text-box.152063abefdf5aa41000.png",
+    "static/media/pbm.png": "/personal-portfolio/static/media/pbm.160f66c5c91952c392b1.png",
+    "static/media/space.jpeg": "/personal-portfolio/static/media/space.ef7aaf423126abf393d2.jpeg",
+    "static/media/clouds.png": "/personal-portfolio/static/media/clouds.e2fa935722e18e968c6c.png",
+    "static/media/interviewer.png": "/personal-portfolio/static/media/interviewer.1a45c7e8633c98b54fcf.png",
+    "static/media/mentorme.png": "/personal-portfolio/static/media/mentorme.69e352918ac7996bd9c9.png",
+    "static/media/pokemoncalc.png": "/personal-portfolio/static/media/pokemoncalc.8b933b1deaf91e103041.png",
+    "static/media/rocket.svg": "/personal-portfolio/static/media/rocket.2ffba066c024eb7074709704e06c04b8.svg",
     "index.html": "/personal-portfolio/index.html",
-    "main.f5ee8840.css.map": "/personal-portfolio/static/css/main.f5ee8840.css.map",
-    "main.9203065e.js.map": "/personal-portfolio/static/js/main.9203065e.js.map"
+    "main.d19f2e33.css.map": "/personal-portfolio/static/css/main.d19f2e33.css.map",
+    "main.8055e70a.js.map": "/personal-portfolio/static/js/main.8055e70a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5ee8840.css",
-    "static/js/main.9203065e.js"
+    "static/css/main.d19f2e33.css",
+    "static/js/main.8055e70a.js"
   ]
 }
