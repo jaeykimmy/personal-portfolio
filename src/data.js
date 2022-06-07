@@ -3,6 +3,7 @@ import speedCalc from './assets/pokemoncalc.png'
 import pbm from './assets/pbm.png'
 import interviewer from './assets/interviewer.png'
 import tweet_text_box from './assets/tweet-text-box.png'
+import pokemonTcg from './assets/pokemontcg.gif'
   
   export const reactPortfolio = [
     {
@@ -20,7 +21,7 @@ import tweet_text_box from './assets/tweet-text-box.png'
     {
       id: 3,
       title: "Pokemon TCG Gallery",
-      img: "personalport.png",
+      img: pokemonTcg,
       src: "https://jaeykimmy.github.io/pokemontcg/"
     },
   ];
