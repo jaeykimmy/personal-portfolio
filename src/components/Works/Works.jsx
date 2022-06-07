@@ -1,6 +1,8 @@
 import {useState} from 'react'
 import "./Works.scss"
 import arrow from '../../assets/arrow.png'
+import speedCalcGif from '../../assets/speedcalc.gif'
+import schedulerDemoGif from '../../assets/demo.gif'
 
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -22,7 +24,7 @@ export default function Works() {
       desc:
         "An interview scheduling application where the user can book, delete and edit their appointments. Built with React, Cypress and Jest",
       img:
-        "assets/demo.gif",
+        schedulerDemoGif,
       src: "https://github.com/jaeykimmy/scheduler"
     },
     {
@@ -32,7 +34,7 @@ export default function Works() {
       desc:
         "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
       img:
-        "assets/speedcalc.gif",
+        speedCalcGif,
       src: "https://github.com/jaeykimmy/react-pokemon-calc"
     },
   ];
