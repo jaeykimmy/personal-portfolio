@@ -16,7 +16,7 @@ import pokemonTcg from './assets/pokemontcg.gif'
       id: 2,
       title: "Pokemon Speed Calculator",
       img: speedCalc,
-      src: "https://github.com/jaeykimmy/react-pokemon-calc"
+      src: "https://jaeykimmy.github.io/react-pokemon-calc/"
     },
     {
       id: 3,
