@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.083563f3.css",
+    "main.css": "/personal-portfolio/static/css/main.ea914802.css",
     "main.js": "/personal-portfolio/static/js/main.b283dd6c.js",
     "static/media/pokemontcg.gif": "/personal-portfolio/static/media/pokemontcg.faa3e1771138bc385722.gif",
     "static/media/speedcalc.gif": "/personal-portfolio/static/media/speedcalc.672b2b066c07d2e604fe.gif",
@@ -14,11 +14,11 @@
     "static/media/pokemoncalc.png": "/personal-portfolio/static/media/pokemoncalc.8b933b1deaf91e103041.png",
     "static/media/rocket.svg": "/personal-portfolio/static/media/rocket.2ffba066c024eb7074709704e06c04b8.svg",
     "index.html": "/personal-portfolio/index.html",
-    "main.083563f3.css.map": "/personal-portfolio/static/css/main.083563f3.css.map",
+    "main.ea914802.css.map": "/personal-portfolio/static/css/main.ea914802.css.map",
     "main.b283dd6c.js.map": "/personal-portfolio/static/js/main.b283dd6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.083563f3.css",
+    "static/css/main.ea914802.css",
     "static/js/main.b283dd6c.js"
   ]
 }
