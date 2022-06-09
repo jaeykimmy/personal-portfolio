@@ -17,8 +17,6 @@ function App() {
       <Intro />
       <Portfolio />
         <Works />
-        {/* <Ufo/> */}
-      {/* <Testimonials /> */}
       <Contact/>
       </div>
     </div>
