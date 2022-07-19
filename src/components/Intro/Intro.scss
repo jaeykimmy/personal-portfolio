@@ -1,29 +1,33 @@
 @import "../../global.scss";
 
-.intro{
-  
+.intro {
   display: flex;
 
-  @include mobile{
+  @include mobile {
     flex-direction: column;
     align-items: center;
   }
 
-  .left{
+  .left {
     flex: 0.5; // flex shows the ratio the section will take up, flex with a value of 1 is 100% width
     overflow: hidden;
-    .imgContainer{
+    .imgContainer {
       margin-top: 24px;
       width: 700px;
       height: 700px;
-      background: linear-gradient(180deg, rgb(0, 32, 36) 0%, rgb(9, 119, 121) 35%, rgba(0,212,255,1) 100%);
+      background: linear-gradient(
+        180deg,
+        rgb(0, 32, 36) 0%,
+        rgb(9, 119, 121) 35%,
+        rgba(0, 212, 255, 1) 100%
+      );
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
       float: right;
-      animation: rotatePlanet 150s infinite linear; 
-     
-      img{
+      animation: rotatePlanet 150s infinite linear;
+
+      img {
         height: 100%;
         border-radius: 50%;
         display: flex;
@@ -31,25 +35,25 @@
         // float: right;
         z-index: 1;
         position: absolute;
-    width:700px;
-    height:700px;
-    opacity: 0.4;
+        width: 700px;
+        height: 700px;
+        opacity: 0.4;
       }
     }
   }
-  @keyframes rotatePlanet{
-  0%{
-    transform:rotateZ(0);
+  @keyframes rotatePlanet {
+    0% {
+      transform: rotateZ(0);
+    }
+    100% {
+      transform: rotateZ(-360deg);
+    }
   }
-  100%{
-    transform:rotateZ(-360deg);
-  }
-}
-  .right{
+  .right {
     flex: 0.5;
     position: relative;
-    
-    .wrapper{
+
+    .wrapper {
       width: 100%;
       height: 100%;
       padding-left: 50px;
@@ -57,65 +61,61 @@
       flex-direction: column;
       justify-content: center;
 
-      @include mobile{
+      @include mobile {
         padding-left: 0;
       }
-      h1{
+      h1 {
         font-size: 60px;
         margin: 10px 0;
         color: #efd033;
         text-indent: 30px;
 
-        @include mobile{
-        font-size: 40px;
-      }
+        @include mobile {
+          font-size: 40px;
+        }
       }
       h2 {
         font-size: 35px;
         color: skyblue;
         text-indent: 30px;
 
-        @include mobile{
-        font-size: 20px;
-      }
+        @include mobile {
+          font-size: 20px;
+        }
       }
       h3 {
         color: skyblue;
         font-size: 30px;
         text-indent: 30px;
-        span{
+        span {
           animation: bounce 1s ease infinite alternate;
         }
-        @keyframes bounce{
-    100% {
-      top: -20px;
-      text-shadow: 0 1px 0 grey,
-                 0 2px 0 grey,
-                 0 3px 0 grey,
-                 0 4px 0 grey,
-                 0 5px 0 grey,
-        0 50px 25px rgba(0, 0, 0, 0);
-    }
-  }
-  @include mobile{
-        font-size: 20px;
-      }
+        @keyframes bounce {
+          100% {
+            top: -20px;
+            text-shadow: 0 1px 0 grey, 0 2px 0 grey, 0 3px 0 grey, 0 4px 0 grey,
+              0 5px 0 grey, 0 50px 25px rgba(0, 0, 0, 0);
+          }
+        }
+        @include mobile {
+          font-size: 20px;
+        }
       }
       h4 {
         color: #71bc68;
       }
     }
-    a{
+    a {
       position: absolute;
       bottom: 10px;
       left: 40%;
-      .arrow{
+      .arrow {
         font-size: 50px;
         color: white;
-        animation: arrowBlink 2s infinite
+        animation: arrowBlink 2s infinite;
       }
       @keyframes arrowBlink {
-        50%{
+        50% {
           opacity: 0;
         }
       }

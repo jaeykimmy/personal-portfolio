@@ -8,9 +8,9 @@
 
   h1 {
     font-size: 50px;
-        color: #ffff;
+    color: #ffff;
 
-    @include mobile{
+    @include mobile {
       font-size: 20px;
       height: 6%;
       overflow: hidden;
@@ -38,7 +38,7 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    @include mobile{
+    @include mobile {
       width: 100%;
       overflow: hidden;
       // height: 100%
@@ -55,14 +55,14 @@
       justify-content: center;
       color: white;
       position: relative;
-      transition: all .5s ease;
+      transition: all 0.5s ease;
       cursor: pointer;
 
-     @include mobile{
-      // width: 100%;
-      overflow: hidden;
-      height: 180px;
-    }
+      @include mobile {
+        // width: 100%;
+        overflow: hidden;
+        height: 180px;
+      }
 
       h3 {
         position: absolute;

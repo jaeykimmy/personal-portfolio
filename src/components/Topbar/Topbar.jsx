@@ -1,7 +1,7 @@
-import React from 'react'
-import "./Topbar.scss"
+import React from "react";
+import "./Topbar.scss";
 
-export default function Topbar({menuOpen, setMenuOpen}) {
+export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
@@ -9,7 +9,6 @@ export default function Topbar({menuOpen, setMenuOpen}) {
           <a href="#intro" className="logo">
             Jaeyoung
           </a>
-          
         </div>
         <div className="right">
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
@@ -20,5 +19,5 @@ export default function Topbar({menuOpen, setMenuOpen}) {
         </div>
       </div>
     </div>
-  )
+  );
 }

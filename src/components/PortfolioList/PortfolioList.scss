@@ -1,24 +1,21 @@
- @import '../../global.scss';
+@import "../../global.scss";
 
- .portfolioList{
-        color: #ffff;
+.portfolioList {
+  color: #ffff;
 
-      font-size: 14px;
-      margin-right: 50px;
-      padding: 7px;
-      border-radius: 10px;
-      cursor: pointer;
+  font-size: 14px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
 
-      @include mobile{
-      margin-right: 20px;
-      overflow: hidden;
-    }
+  @include mobile {
+    margin-right: 20px;
+    overflow: hidden;
+  }
 
-      &.active{
-        background-color: #3a3b3c;
-        color: #efd033;
-        
-
-       
-      }
-    }
+  &.active {
+    background-color: #3a3b3c;
+    color: #efd033;
+  }
+}

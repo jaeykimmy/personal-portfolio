@@ -29,8 +29,7 @@
 
     h2 {
       font-size: 30px;
-        color: #efd033;
-
+      color: #efd033;
     }
 
     form {
@@ -40,8 +39,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
-      input::placeholder{
-        color: #ffffff
+      input::placeholder {
+        color: #ffffff;
       }
       input {
         width: 300px;
@@ -53,14 +52,13 @@
         text-align: center;
         border-radius: 10px;
 
-
-       @include mobile {
-    width: 250px;
-    height: 20px;
-  }
+        @include mobile {
+          width: 250px;
+          height: 20px;
+        }
       }
-      textarea::placeholder{
-        color: #ffffff
+      textarea::placeholder {
+        color: #ffffff;
       }
       textarea {
         width: 300px;
@@ -71,12 +69,11 @@
         border: 0;
         text-align: center;
         border-radius: 10px;
-        
 
         @include mobile {
-    width: 250px;
-    height: 100px;
-  }
+          width: 250px;
+          height: 100px;
+        }
       }
 
       .redButton {
