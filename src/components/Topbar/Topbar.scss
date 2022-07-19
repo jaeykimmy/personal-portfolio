@@ -3,7 +3,7 @@
 .topbar{
   width:100%;
   height: 70px;
-  background: url(http://artem.anmedio.ru/dev/planet/space.jpg);
+  background: transparent;
   color: $mainColor;
   position: fixed;
   top: 0;
@@ -24,7 +24,7 @@
         font-size: 40px;
         font-weight: 700;
         text-decoration: none;
-        color: white; //stops link from turning purple upon click
+        color: #efd033; //stops link from turning purple upon click
         margin-right: 40px;
       }
       .itemContainer{
@@ -55,7 +55,7 @@
         span{
           width: 100%;
           height: 3px;
-          background-color: white;
+          background-color: #efd033;
           transform-origin: left;
           transition: all 2s ease;
         }
@@ -64,19 +64,19 @@
   }
   &.active{
     background-color: $mainColor;
-    color: white;
+    color: #efd033;
 
     .hamburger{
       span{
         &:first-child{
-          background-color: white;
+          background-color: #efd033;
           transform:rotate(45deg);
         }
         &:nth-child(2){
           opacity:0;
         }
         &:last-child{
-          background-color: white;
+          background-color: #efd033;
           transform:rotate(-45deg);
         }
       }

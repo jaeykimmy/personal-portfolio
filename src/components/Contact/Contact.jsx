@@ -1,7 +1,7 @@
 import { useRef, useState} from 'react'
 import "./Contact.scss"
-import Ufo from '../Ufo/Ufo';
 import emailjs from '@emailjs/browser';
+import rocket from '../../assets/rocket.svg'
 
 export default function Contact() {
   const [message, setMessage] = useState(false);
@@ -22,15 +22,15 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="assets/rocket.svg" alt="" />
+        <img className='rocket' src={rocket} alt="" />
       </div>
       <div className="right">
         <h2>Contact.</h2>
         <form onSubmit={sendEmail} ref={form}>
-          <input type="text" placeholder="Subject" name="subject"/>
-          <input type="text" placeholder="Name" name="name"/>
-          <input type="text" placeholder="Email" name="email"/>
-          <textarea placeholder="Message" name="message"></textarea>
+          <input type="text" placeholder="Subject" name="subject" required/>
+          <input type="text" placeholder="Name" name="name" required/>
+          <input type="text" placeholder="Email" name="email" required/>
+          <textarea placeholder="Message" name="message" required></textarea>
           <input type="submit" className="redButton" value="Send" />
            {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form>

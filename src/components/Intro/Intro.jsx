@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Intro.scss"
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-
+import clouds from '../../assets/clouds.png'
 
 export default function Intro() {
 
@@ -9,7 +9,7 @@ export default function Intro() {
     <div className='intro' id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="http://artem.anmedio.ru/dev/planet/clouds.png" alt=""/>
+          <img src={clouds} alt=""/>
         </div>
         {/* <div className="clouds"></div> */}
       </div>

@@ -2,12 +2,12 @@
 
 .app{
   height: 100vh;
+  background: url(./assets/space.jpeg) repeat;
   
   .sections{
     width: 100%;
     height: calc(100vh - 70px);
     color: white;
-    background: url(http://artem.anmedio.ru/dev/planet/space.jpg) repeat;
     position: relative;
     top: 70px;
     //has it so when user navigates through topbar link, it has a smooth transition

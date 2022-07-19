@@ -1,5 +1,8 @@
 import {useState} from 'react'
 import "./Works.scss"
+import arrow from '../../assets/arrow.png'
+import speedCalcGif from '../../assets/speedcalc.gif'
+import schedulerDemoGif from '../../assets/demo.gif'
 
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -9,7 +12,7 @@ export default function Works() {
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
       title: "Mentor Me",
       desc:
-        "I completed a pair programming end-to-end React project using the MERN stack and created a React app based on my own passion - Pokemon",
+        "I completed a pair programming end-to-end React project using the MERN stack",
       img:
         "https://raw.githubusercontent.com/rosemaryku/mentor-me/main/docs/search.gif",
       src: "https://github.com/jaeykimmy/mentor_me"
@@ -21,7 +24,7 @@ export default function Works() {
       desc:
         "An interview scheduling application where the user can book, delete and edit their appointments. Built with React, Cypress and Jest",
       img:
-        "assets/demo.gif",
+        schedulerDemoGif,
       src: "https://github.com/jaeykimmy/scheduler"
     },
     {
@@ -31,7 +34,7 @@ export default function Works() {
       desc:
         "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
       img:
-        "assets/speedcalc.gif",
+        speedCalcGif,
       src: "https://github.com/jaeykimmy/react-pokemon-calc"
     },
   ];
@@ -66,8 +69,8 @@ export default function Works() {
           
         ))}
       </div>
-      <img src="assets/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")} />
-      <img src="assets/arrow.png" className="arrow right" alt="" onClick={()=>handleClick()}/>
+      <img src={arrow} className="arrow left" alt="" onClick={()=>handleClick("left")} />
+      <img src={arrow} className="arrow right" alt="" onClick={()=>handleClick()}/>
 
     </div>
   )

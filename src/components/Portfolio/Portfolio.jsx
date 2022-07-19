@@ -29,7 +29,7 @@ export default function Portfolio() {
       default:
         setData(reactPortfolio);
     }
-  },[selected])
+  }, [selected])
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
@@ -45,7 +45,7 @@ export default function Portfolio() {
       <div className="container">
         {data.map((data) => (
           <a href={data.src}>
-          <div className="item">
+            <div className="item">
             <img src={data.img} alt="" href={data.src}/>
           <h3>{data.title}</h3>
         </div>

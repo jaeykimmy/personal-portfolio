@@ -1,6 +1,8 @@
  @import '../../global.scss';
 
  .portfolioList{
+        color: #ffff;
+
       font-size: 14px;
       margin-right: 50px;
       padding: 7px;
@@ -13,8 +15,9 @@
     }
 
       &.active{
-        background-color: grey;
-        color: white;
+        background-color: #3a3b3c;
+        color: #efd033;
+        
 
        
       }
