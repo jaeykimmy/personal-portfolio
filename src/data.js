@@ -4,6 +4,8 @@ import pbm from "./assets/pbm.png";
 import interviewer from "./assets/interviewer.png";
 import tweet_text_box from "./assets/tweet-text-box.png";
 import pokemonTcg from "./assets/pokemontcg.gif";
+import speedCalcGif from "./assets/speedcalc.gif";
+import schedulerDemoGif from "./assets/demo.gif";
 
 export const reactPortfolio = [
   {
@@ -44,5 +46,32 @@ export const webPortfolio = [
     title: "Tweeter",
     img: tweet_text_box,
     src: "https://github.com/jaeykimmy/tweeter",
+  },
+];
+
+export const works = [
+  {
+    id: "1",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    title: "Mentor Me",
+    desc: "I completed a pair programming end-to-end React project using the MERN stack",
+    img: "https://raw.githubusercontent.com/rosemaryku/mentor-me/main/docs/search.gif",
+    src: "https://github.com/jaeykimmy/mentor_me",
+  },
+  {
+    id: "2",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    title: "Scheduler",
+    desc: "An interview scheduling application where the user can book, delete and edit their appointments. Built with React, Cypress and Jest",
+    img: schedulerDemoGif,
+    src: "https://github.com/jaeykimmy/scheduler",
+  },
+  {
+    id: "3",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    title: "Pokemon Speed Calculator",
+    desc: "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
+    img: speedCalcGif,
+    src: "https://github.com/jaeykimmy/react-pokemon-calc",
   },
 ];
