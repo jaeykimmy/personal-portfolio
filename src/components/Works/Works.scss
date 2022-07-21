@@ -5,28 +5,29 @@
   justify-content: center;
   position: relative;
 
-  .arrow {
-    height: 50px;
-    position: absolute;
-    cursor: pointer;
+  // .arrow {
+  //   height: 50px;
+  //   position: absolute;
+  //   cursor: pointer;
 
-    @include mobile {
-      margin-top: 600px;
-    }
-    &.left {
-      left: 100px;
-      transform: rotate(180deg);
-    }
+  //   @include mobile {
+  //     margin-top: 600px;
+  //   }
+  //   &.left {
+  //     left: 100px;
+  //     transform: rotate(180deg);
+  //   }
 
-    &.right {
-      right: 100px;
-    }
-  }
+  //   &.right {
+  //     right: 100px;
+  //   }
+  // }
 
   .slider {
-    height: 350px;
-    display: flex;
-    position: absolute;
+    // height: 350px;
+    // display: flex;
+    // width: 100vw;
+    // position: absolute;
     left: 0;
     transition: all 1s ease-out;
     
@@ -35,7 +36,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
+      margin-bottom: 12px;
       .item {
         width: 700px;
         height: 100%;
@@ -114,6 +115,8 @@
           img {
             transform: rotate(5deg);
           }
+              overflow: hidden;
+
         }
       }
     }

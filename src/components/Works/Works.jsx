@@ -44,7 +44,8 @@ export default function Works() {
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-        >
+      >
+        <h1>Works</h1>
         {data.map((data) => (
           <div className="container">
             <div className="item">
@@ -67,7 +68,7 @@ export default function Works() {
           </div>
         ))}
       </div>
-      <img
+      {/* <img
         src={arrow}
         className="arrow left"
         alt=""
@@ -78,7 +79,7 @@ export default function Works() {
         className="arrow right"
         alt=""
         onClick={() => handleClick()}
-      />
+      /> */}
     </div>
   );
 }
