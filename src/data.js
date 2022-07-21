@@ -52,7 +52,10 @@ export const webPortfolio = [
 export const works = [
   {
     id: "1",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    icons: [
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg",
+    ],
     title: "Mentor Me",
     desc: "I completed a pair programming end-to-end React project using the MERN stack",
     img: "https://raw.githubusercontent.com/rosemaryku/mentor-me/main/docs/search.gif",
@@ -60,7 +63,9 @@ export const works = [
   },
   {
     id: "2",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    icons: [
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    ],
     title: "Scheduler",
     desc: "An interview scheduling application where the user can book, delete and edit their appointments. Built with React, Cypress and Jest",
     img: schedulerDemoGif,
@@ -68,7 +73,9 @@ export const works = [
   },
   {
     id: "3",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    icons: [
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    ],
     title: "Pokemon Speed Calculator",
     desc: "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
     img: speedCalcGif,

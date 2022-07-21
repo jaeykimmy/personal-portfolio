@@ -51,9 +51,13 @@ export default function Works() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
+                  <div className='icon-row'>
+                    {data.icons.map(icon => (
                   <div className="imgContainer">
-                    <img src={data.icon} alt="" />
+                    <img src={icon} alt="" />
                   </div>
+                    ))}
+                    </div>
                   <h2>{data.title}</h2>
                   <p>{data.desc}</p>
                   <a href={data.src}>
