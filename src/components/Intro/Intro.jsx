@@ -22,9 +22,9 @@ export default function Intro() {
           </h3>
           <h4>{"</intro>"}</h4>
         </div>
-        <a href="#portfolio">
+        {/* <a href="#portfolio">
           <KeyboardArrowDownIcon className={"arrow"} />
-        </a>
+        </a> */}
       </div>
     </div>
   );
