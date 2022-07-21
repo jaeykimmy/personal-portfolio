@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Works.scss";
-import { works } from "../../data"; 
+import { works, webPortfolio } from "../../data"; 
 import PortfolioList from "../PortfolioList/PortfolioList";
 
 export default function Works() {
   const [selected, setSelected] = useState("react");
+  const [data, setData] = useState([]);
+
   const list = [
     {
       id: "react",
@@ -15,6 +17,18 @@ export default function Works() {
       title: "Web Apps",
     },
   ];
+  useEffect(() => {
+    switch (selected) {
+      case "react":
+        setData(works);
+        break;
+      case "web":
+        setData(webPortfolio);
+        break;
+      default:
+        setData(works);
+    }
+  }, [selected]);
   return (
     <div className="works" id="works">
       {/* we know from css that -100vw or 100vw changes the slide over left or right respectively */}
@@ -32,7 +46,7 @@ export default function Works() {
       <div
         className="slider"
       >
-        {works.map((data) => (
+        {data.map((data) => (
           <div className="container">
             <div className="item">
               <div className="left">
@@ -54,18 +68,6 @@ export default function Works() {
           </div>
         ))}
       </div>
-      {/* <img
-        src={arrow}
-        className="arrow left"
-        alt=""
-        onClick={() => handleClick("left")}
-      />
-      <img
-        src={arrow}
-        className="arrow right"
-        alt=""
-        onClick={() => handleClick()}
-      /> */}
     </div>
   );
 }
