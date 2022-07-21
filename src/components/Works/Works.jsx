@@ -1,16 +1,37 @@
 import { useState } from "react";
 import "./Works.scss";
 import { works } from "../../data"; 
+import PortfolioList from "../PortfolioList/PortfolioList";
 
 export default function Works() {
+  const [selected, setSelected] = useState("react");
+  const list = [
+    {
+      id: "react",
+      title: "React",
+    },
+    {
+      id: "web",
+      title: "Web Apps",
+    },
+  ];
   return (
     <div className="works" id="works">
       {/* we know from css that -100vw or 100vw changes the slide over left or right respectively */}
+      <h1>Works</h1>
+      <ul>
+        {list.map((item) => (
+          <PortfolioList
+            title={item.title}
+            active={selected === item.id}
+            setSelected={setSelected}
+            id={item.id}
+          />
+        ))}
+      </ul>
       <div
         className="slider"
-        
       >
-        <h1>Works</h1>
         {works.map((data) => (
           <div className="container">
             <div className="item">

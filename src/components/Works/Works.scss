@@ -4,25 +4,33 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  flex-direction: column;
 
-  // .arrow {
-  //   height: 50px;
-  //   position: absolute;
-  //   cursor: pointer;
+  h1 {
+    font-size: 50px;
+    color: #ffff;
 
-  //   @include mobile {
-  //     margin-top: 600px;
-  //   }
-  //   &.left {
-  //     left: 100px;
-  //     transform: rotate(180deg);
-  //   }
+    @include mobile {
+      font-size: 20px;
+      height: 6%;
+      overflow: hidden;
+    }
+  }
 
-  //   &.right {
-  //     right: 100px;
-  //   }
-  // }
+  ul {
+    margin: 10px;
+    // list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    // @include mobile{
+    //   margin: 20px;
+    //   flex-wrap: wrap;
+    //   justify-content: center;
+    // }
+  }
+ 
   .slider {
     // height: 350px;
     // display: flex;
