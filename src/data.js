@@ -7,54 +7,44 @@ import pokemonTcg from "./assets/pokemontcg.gif";
 import speedCalcGif from "./assets/speedcalc.gif";
 import schedulerDemoGif from "./assets/demo.gif";
 
-export const reactPortfolio = [
-  {
-    id: 1,
-    title: "Mentor Me",
-    img: mentorMeImgSrc,
-    src: "https://github.com/jaeykimmy/personal-portfolio",
-  },
-  {
-    id: 2,
-    title: "Pokemon Speed Calculator",
-    img: speedCalc,
-    src: "https://jaeykimmy.github.io/react-pokemon-calc/",
-  },
-  {
-    id: 3,
-    title: "Pokemon TCG Gallery",
-    img: pokemonTcg,
-    src: "https://jaeykimmy.github.io/pokemontcg/",
-  },
-];
-
 export const webPortfolio = [
   {
     id: 1,
+    icons: [
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    ],
     title: "Pokemon Black Market",
     img: pbm,
     src: "https://github.com/jaeykimmy/buy-sell-store-LHL",
   },
   {
     id: 2,
+    icons: [
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    ],
     title: "Scheduler",
     img: interviewer,
     src: "https://github.com/jaeykimmy/scheduler",
   },
   {
     id: 3,
+    icons: [
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    ],
     title: "Tweeter",
     img: tweet_text_box,
     src: "https://github.com/jaeykimmy/tweeter",
   },
 ];
 
-export const works = [
+export const reactPortfolio = [
   {
     id: "1",
     icons: [
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     ],
     title: "Mentor Me",
     desc: "I completed a pair programming end-to-end React project using the MERN stack",
@@ -65,6 +55,9 @@ export const works = [
     id: "2",
     icons: [
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/storybook/storybook-original.svg",
     ],
     title: "Scheduler",
     desc: "An interview scheduling application where the user can book, delete and edit their appointments. Built with React, Cypress and Jest",
@@ -75,10 +68,22 @@ export const works = [
     id: "3",
     icons: [
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     ],
     title: "Pokemon Speed Calculator",
     desc: "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
     img: speedCalcGif,
     src: "https://github.com/jaeykimmy/react-pokemon-calc",
+  },
+  {
+    id: 4,
+    icons: [
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-plain.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+    ],
+    title: "Pokemon TCG Gallery",
+    img: pokemonTcg,
+    src: "https://jaeykimmy.github.io/pokemontcg/",
   },
 ];

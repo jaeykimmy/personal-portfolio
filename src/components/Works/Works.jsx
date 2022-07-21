@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Works.scss";
-import { works, webPortfolio } from "../../data"; 
+import { reactPortfolio, webPortfolio } from "../../data"; 
 import PortfolioList from "../PortfolioList/PortfolioList";
 
 export default function Works() {
@@ -20,13 +20,13 @@ export default function Works() {
   useEffect(() => {
     switch (selected) {
       case "react":
-        setData(works);
+        setData(reactPortfolio);
         break;
       case "web":
         setData(webPortfolio);
         break;
       default:
-        setData(works);
+        setData(reactPortfolio);
     }
   }, [selected]);
   return (
@@ -51,7 +51,7 @@ export default function Works() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className='icon-row'>
+                  <div className='icon-row' key={data.id}>
                     {data.icons.map(icon => (
                   <div className="imgContainer">
                     <img src={icon} alt="" />
