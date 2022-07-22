@@ -1,6 +1,7 @@
 import Topbar from "./components/Topbar/Topbar";
 import Intro from "./components/Intro/Intro";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Footer from "./components/Footer/Footer";
 // import TagCloud from "TagCloud";
 import Technologies from "./components/Technologies/Technologies";
 import About from "./components/About/About";
@@ -24,6 +25,7 @@ function App() {
         <Works />
         {/* <Portfolio /> */}
         <Contact />
+        <Footer />
       </div>
     </div>
   );

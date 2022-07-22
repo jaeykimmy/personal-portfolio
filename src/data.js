@@ -6,40 +6,35 @@ import tweet_text_box from "./assets/tweet-text-box.png";
 import pokemonTcg from "./assets/pokemontcg.gif";
 import speedCalcGif from "./assets/speedcalc.gif";
 import schedulerDemoGif from "./assets/demo.gif";
+import reactsvg from "./assets/react-original.svg";
+import expresssvg from "./assets/express-original.svg";
+import resumesvg from "./assets/resume.svg";
 
 export const webPortfolio = [
   {
     id: 1,
-    icons: [
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    ],
+    icons: [reactsvg],
     title: "Pokemon Black Market",
     img: pbm,
     src: "https://github.com/jaeykimmy/buy-sell-store-LHL",
   },
   {
     id: 2,
-    icons: [
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    ],
+    icons: [reactsvg],
     title: "Scheduler",
     img: interviewer,
     src: "https://github.com/jaeykimmy/scheduler",
   },
   {
     id: 3,
-    icons: [
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    ],
+    icons: [reactsvg],
     title: "Tweeter",
     img: tweet_text_box,
     src: "https://github.com/jaeykimmy/tweeter",
   },
   {
     id: 4,
-    icons: [
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    ],
+    icons: [reactsvg],
     title: "Tweeter",
     img: tweet_text_box,
     src: "https://github.com/jaeykimmy/tweeter",
@@ -50,9 +45,9 @@ export const reactPortfolio = [
   {
     id: "1",
     icons: [
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      reactsvg,
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg",
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+      expresssvg,
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     ],
     title: "Mentor Me",
@@ -63,8 +58,8 @@ export const reactPortfolio = [
   {
     id: "2",
     icons: [
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+      reactsvg,
+      expresssvg,
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg",
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/storybook/storybook-original.svg",
     ],
@@ -76,7 +71,7 @@ export const reactPortfolio = [
   {
     id: "3",
     icons: [
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      reactsvg,
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     ],
     title: "Pokemon Speed Calculator",
@@ -87,12 +82,56 @@ export const reactPortfolio = [
   {
     id: 4,
     icons: [
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      reactsvg,
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-plain.svg",
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     ],
     title: "Pokemon TCG Gallery",
     img: pokemonTcg,
     src: "https://jaeykimmy.github.io/pokemontcg/",
+  },
+];
+export const iconimg = [
+  {
+    name: "react",
+    src: reactsvg,
+  },
+  {
+    name: "postgresql",
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg",
+  },
+  {
+    name: "express",
+    src: expresssvg,
+  },
+  {
+    name: "nodejs",
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+  },
+  {
+    name: "jest",
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg",
+  },
+  {
+    name: "storybook",
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/storybook/storybook-original.svg",
+  },
+];
+
+export const socialLinks = [
+  {
+    name: "github",
+    src: "https://github.com/jaeykimmy",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
+  },
+  {
+    name: "linkedin",
+    src: "https://www.linkedin.com/in/jjykim/",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg",
+  },
+  {
+    name: "resume",
+    src: "https://resume.creddle.io/resume/7i5eupblvtx",
+    img: resumesvg,
   },
 ];
