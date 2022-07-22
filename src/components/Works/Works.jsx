@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Works.scss";
-import { reactPortfolio, webPortfolio } from "../../data"; 
+import { reactPortfolio, webPortfolio } from "../../data";
 import PortfolioList from "../PortfolioList/PortfolioList";
 
 export default function Works() {
@@ -43,21 +43,19 @@ export default function Works() {
           />
         ))}
       </ul>
-      <div
-        className="slider"
-      >
+      <div className="slider">
         {data.map((data) => (
           <div className="container">
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className='icon-row' key={data.id}>
-                    {data.icons.map(icon => (
-                  <div className="imgContainer">
-                    <img src={icon} alt="" />
-                  </div>
+                  <div className="icon-row" key={data.id}>
+                    {data.icons.map((icon) => (
+                      <div className="imgContainer">
+                        <img src={icon} alt="" />
+                      </div>
                     ))}
-                    </div>
+                  </div>
                   <h2>{data.title}</h2>
                   <p>{data.desc}</p>
                   <a href={data.src}>

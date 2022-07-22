@@ -19,8 +19,8 @@
       height: 60%;
       animation: bounce 0.5s infinite;
       @include mobile {
-      height:250px;
-    }
+        height: 250px;
+      }
     }
   }
   .right {
