@@ -9,49 +9,45 @@ import schedulerDemoGif from "./assets/demo.gif";
 import reactsvg from "./assets/react-original.svg";
 import expresssvg from "./assets/express-original.svg";
 import resumesvg from "./assets/resume.svg";
+import postgresqlsvg from "./assets/postgresql-plain.svg";
+import nodejssvg from "./assets/nodejs-original.svg";
+import rubysvg from "./assets/ruby-original.svg";
+import railssvg from "./assets/rails-plain.svg";
+import jungle from "./assets/jungle.png";
 
 export const webPortfolio = [
   {
     id: 1,
-    icons: [reactsvg],
+    icons: [expresssvg, nodejssvg, postgresqlsvg],
     title: "Pokemon Black Market",
     img: pbm,
+    desc: "A pair-programmed end-to-end e-commerce application where users can (legally) buy and sell Pokemon",
     src: "https://github.com/jaeykimmy/buy-sell-store-LHL",
   },
   {
     id: 2,
-    icons: [reactsvg],
-    title: "Scheduler",
-    img: interviewer,
-    src: "https://github.com/jaeykimmy/scheduler",
+    icons: [expresssvg, nodejssvg],
+    title: "Tweeter",
+    img: tweet_text_box,
+    desc: "Tweeter is a simple, single-page Twitter clone.",
+    src: "https://github.com/jaeykimmy/tweeter",
   },
   {
     id: 3,
-    icons: [reactsvg],
-    title: "Tweeter",
-    img: tweet_text_box,
-    src: "https://github.com/jaeykimmy/tweeter",
-  },
-  {
-    id: 4,
-    icons: [reactsvg],
-    title: "Tweeter",
-    img: tweet_text_box,
-    src: "https://github.com/jaeykimmy/tweeter",
+    icons: [postgresqlsvg, rubysvg, railssvg],
+    title: "Jungle",
+    img: jungle,
+    desc: "A mini e-commerce application built with Rails 4.2 with PostgreSQL and Stripe API",
+    src: "https://github.com/jaeykimmy/jungle-rails",
   },
 ];
 
 export const reactPortfolio = [
   {
     id: "1",
-    icons: [
-      reactsvg,
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg",
-      expresssvg,
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-    ],
+    icons: [reactsvg, postgresqlsvg, expresssvg, nodejssvg],
     title: "Mentor Me",
-    desc: "I completed a pair programming end-to-end React project using the MERN stack",
+    desc: "I completed a pair programming end-to-end React project using the PERN stack",
     img: "https://raw.githubusercontent.com/rosemaryku/mentor-me/main/docs/search.gif",
     src: "https://github.com/jaeykimmy/mentor_me",
   },
@@ -70,10 +66,7 @@ export const reactPortfolio = [
   },
   {
     id: "3",
-    icons: [
-      reactsvg,
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-    ],
+    icons: [reactsvg, nodejssvg],
     title: "Pokemon Speed Calculator",
     desc: "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
     img: speedCalcGif,
@@ -84,9 +77,10 @@ export const reactPortfolio = [
     icons: [
       reactsvg,
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-plain.svg",
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+      nodejssvg,
     ],
     title: "Pokemon TCG Gallery",
+    desc: "A real-time application to find your favourite Pokemon cards with high resolution images, prices and links to purchase from TCGplayer",
     img: pokemonTcg,
     src: "https://jaeykimmy.github.io/pokemontcg/",
   },
@@ -98,7 +92,7 @@ export const iconimg = [
   },
   {
     name: "postgresql",
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg",
+    src: postgresqlsvg,
   },
   {
     name: "express",
@@ -106,7 +100,7 @@ export const iconimg = [
   },
   {
     name: "nodejs",
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+    src: nodejssvg,
   },
   {
     name: "jest",
