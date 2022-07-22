@@ -9,8 +9,8 @@ export default function About() {
         healthcare worker role as an x-ray technologist. Due to my knack for
         picking up the electronic health record systems quickly and being
         entrusted by the senior technologists to deal with many software issues
-        and bugs, I decided to leave my full-time role to become a web developer
-        to work a career doing what I love - solving problems and making things.
+        and bugs, I decided to leave my full-time role to work a career doing
+        what I love - solving problems and making things.
       </p>
       <p>
         I have since worked to become proficient using React, Express,

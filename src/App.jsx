@@ -1,6 +1,7 @@
 import Topbar from "./components/Topbar/Topbar";
 import Intro from "./components/Intro/Intro";
 import Portfolio from "./components/Portfolio/Portfolio";
+// import TagCloud from "TagCloud";
 import Technologies from "./components/Technologies/Technologies";
 import About from "./components/About/About";
 import Works from "./components/Works/Works";
@@ -19,6 +20,7 @@ function App() {
         <Intro />
         <About />
         <Technologies />
+        {/* <TagCloud /> */}
         <Works />
         {/* <Portfolio /> */}
         <Contact />
