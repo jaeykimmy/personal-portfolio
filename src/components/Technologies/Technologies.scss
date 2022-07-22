@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .technologies {
   margin-bottom: 64px;
   display: flex;
@@ -9,11 +11,18 @@
   }
   .icons {
     height: 100px;
+    max-height: 100px;
     display: flex;
     max-width: 700px;
     flex-direction: row;
     justify-content: space-between;
     background-color: #405363;
     border-radius: 16px;
+
+    .icon {
+      @include mobile {
+        max-width: 50px;
+      }
+    }
   }
 }

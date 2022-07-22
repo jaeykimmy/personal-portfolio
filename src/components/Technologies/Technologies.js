@@ -16,7 +16,7 @@ export default function Technolgies() {
       <h1>Technologies</h1>
       <div className="icons">
         {iconimg.map((icon) => (
-          <img src={icon.src} alt="" onClick={handleButton} />
+          <img className="icon" src={icon.src} alt="" onClick={handleButton} />
         ))}
       </div>
     </div>
