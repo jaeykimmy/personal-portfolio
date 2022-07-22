@@ -79,7 +79,9 @@
               display: flex;
               align-items: center;
               justify-content: center;
-
+              @include mobile {
+                background: transparent;
+              }
               img {
                 width: 25px;
                 flex-direction: row;
