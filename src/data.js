@@ -35,6 +35,15 @@ export const webPortfolio = [
     img: tweet_text_box,
     src: "https://github.com/jaeykimmy/tweeter",
   },
+  {
+    id: 4,
+    icons: [
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    ],
+    title: "Tweeter",
+    img: tweet_text_box,
+    src: "https://github.com/jaeykimmy/tweeter",
+  },
 ];
 
 export const reactPortfolio = [
