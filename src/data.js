@@ -110,6 +110,14 @@ export const iconimg = [
     name: "storybook",
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/storybook/storybook-original.svg",
   },
+  {
+    name: "ruby",
+    src: rubysvg,
+  },
+  {
+    name: "rails",
+    src: railssvg,
+  },
 ];
 
 export const socialLinks = [
