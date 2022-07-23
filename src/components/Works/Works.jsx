@@ -3,7 +3,7 @@ import "./Works.scss";
 import { reactPortfolio, webPortfolio } from "../../data";
 import PortfolioList from "../PortfolioList/PortfolioList";
 
-export default function Works() {
+export default function Works(props) {
   const [selected, setSelected] = useState("react");
   const [data, setData] = useState([]);
 

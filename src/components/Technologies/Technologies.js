@@ -2,23 +2,32 @@ import React from "react";
 import { useState } from "react";
 import "./Technologies.scss";
 import { iconimg } from "../../data";
+import Works from "../Works/Works";
 export default function Technolgies() {
-  const [filterLanguage, setFilterLanguage] = useState([]);
+  const [filterTech, setFilterTech] = useState("");
   const handleButton = (e) => {
-    if (e.target.value === "All") {
-      setFilterLanguage("all");
-    } else {
-      setFilterLanguage(iconimg.filter((x) => x.name === e.target.value));
-    }
+    setFilterTech(
+      iconimg.filter((x) => x.name === e.target.getAttribute("value"))
+    );
   };
+  console.log(filterTech[0]);
   return (
     <div className="technologies">
       <h1>Technologies</h1>
       <div className="icons">
         {iconimg.map((icon) => (
-          <img className="icon" src={icon.src} alt="" onClick={handleButton} />
+          <button key={icon.name}>
+            <img
+              className="icon"
+              src={icon.src}
+              alt=""
+              value={icon.name}
+              onClick={handleButton}
+            />
+          </button>
         ))}
       </div>
+      <Works filterTech={filterTech} />
     </div>
   );
 }
