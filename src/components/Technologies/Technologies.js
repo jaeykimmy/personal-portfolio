@@ -4,11 +4,11 @@ import "./Technologies.scss";
 import { iconimg, webPortfolio, reactPortfolio } from "../../data";
 import Works from "../Works/Works";
 export default function Technolgies() {
-  const [filterTech, setFilterTech] = useState([]);
   const combinePortfolio = reactPortfolio.concat(webPortfolio);
-  console.log(combinePortfolio);
+  const [filterTech, setFilterTech] = useState(combinePortfolio);
+  // console.log(combinePortfolio);
   const handleButton = (e) => {
-    console.log("button pressed:", e.target.getAttribute("value"));
+    // console.log("button pressed:", e.target.getAttribute("value"));
     if (e.target.getAttribute("value") === "all") {
       setFilterTech(combinePortfolio);
     } else {
@@ -27,7 +27,6 @@ export default function Technolgies() {
         {iconimg.map((icon) => (
           <button key={icon.name}>
             <img
-              defaultValue="all"
               className="icon"
               src={icon.src}
               alt=""

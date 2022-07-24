@@ -4,6 +4,7 @@ import { reactPortfolio, webPortfolio } from "../../data";
 import PortfolioList from "../PortfolioList/PortfolioList";
 
 export default function Works(props) {
+  console.log(props.filterTech);
   // const [selected, setSelected] = useState("react");
   // const [data, setData] = useState([]);
 
@@ -45,32 +46,31 @@ export default function Works(props) {
         ))}
       </ul> */}
       <div className="slider">
-        {props.filterTech &&
-          props.filterTech.map((data) => (
-            <div className="container" key={data.title}>
-              <div className="item">
-                <div className="left">
-                  <div className="leftContainer">
-                    <div className="icon-row">
-                      {data.icons.map((icon) => (
-                        <div className="imgContainer" key={Math.random()}>
-                          <img src={icon} alt="" />
-                        </div>
-                      ))}
-                    </div>
-                    <h2>{data.title}</h2>
-                    <p>{data.desc}</p>
-                    <a href={data.src}>
-                      <span>Project</span>
-                    </a>
+        {props.filterTech.map((data) => (
+          <div className="container" key={data.title}>
+            <div className="item">
+              <div className="left">
+                <div className="leftContainer">
+                  <div className="icon-row">
+                    {data.icons.map((icon) => (
+                      <div className="imgContainer" key={Math.random()}>
+                        <img src={icon} alt="" />
+                      </div>
+                    ))}
                   </div>
-                </div>
-                <div className="right">
-                  <img src={data.img} alt="" />
+                  <h2>{data.title}</h2>
+                  <p>{data.desc}</p>
+                  <a href={data.src}>
+                    <span>Project</span>
+                  </a>
                 </div>
               </div>
+              <div className="right">
+                <img src={data.img} alt="" />
+              </div>
             </div>
-          ))}
+          </div>
+        ))}
       </div>
     </div>
   );
