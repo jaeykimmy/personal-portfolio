@@ -22,7 +22,8 @@ export default function Technolgies() {
   console.log(filterTech);
   return (
     <div className="technologies">
-      <h2>Technologies (its also a filter button for works)</h2>
+      <h2>Technologies</h2>
+      <h3>Filter By Stack</h3>
       <div className="icons">
         {iconimg.map((icon) => (
           <button key={icon.name}>
