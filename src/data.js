@@ -14,7 +14,9 @@ import nodejssvg from "./assets/nodejs-original.svg";
 import rubysvg from "./assets/ruby-original.svg";
 import railssvg from "./assets/rails-plain.svg";
 import jungle from "./assets/jungle.png";
-
+import jestsvg from "./assets/jest-plain.svg";
+import storybooksvg from "./assets/storybook-original.svg";
+import muisvg from "./assets/materialui-plain.svg";
 export const webPortfolio = [
   {
     id: 1,
@@ -54,12 +56,7 @@ export const reactPortfolio = [
   },
   {
     id: "2",
-    icons: [
-      reactsvg,
-      expresssvg,
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg",
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/storybook/storybook-original.svg",
-    ],
+    icons: [reactsvg, expresssvg, jestsvg, storybooksvg],
     stacks: ["react", "postgresql", "jest", "storybook"],
     title: "Scheduler",
     desc: "An interview scheduling application where the user can book, delete and edit their appointments. Built with React, Cypress and Jest",
@@ -77,11 +74,7 @@ export const reactPortfolio = [
   },
   {
     id: "4",
-    icons: [
-      reactsvg,
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-plain.svg",
-      nodejssvg,
-    ],
+    icons: [reactsvg, muisvg, nodejssvg],
     stacks: ["react", "mui", "nodejs"],
     title: "Pokemon TCG Gallery",
     desc: "A real-time application to find your favourite Pokemon cards with high resolution images, prices and links to purchase from TCGplayer",
@@ -108,11 +101,11 @@ export const iconimg = [
   },
   {
     name: "jest",
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg",
+    src: jestsvg,
   },
   {
     name: "storybook",
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/storybook/storybook-original.svg",
+    src: storybooksvg,
   },
   {
     name: "ruby",

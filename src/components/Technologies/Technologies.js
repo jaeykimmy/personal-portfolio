@@ -4,9 +4,9 @@ import "./Technologies.scss";
 import { iconimg, webPortfolio, reactPortfolio } from "../../data";
 import Works from "../Works/Works";
 export default function Technolgies() {
-  const [filterTech, setFilterTech] = useState("");
+  const [filterTech, setFilterTech] = useState([]);
   const handleButton = (e) => {
-    console.log(e.target.getAttribute("value"));
+    console.log("button pressed:", e.target.getAttribute("value"));
     setFilterTech(
       reactPortfolio.filter((x) =>
         x.stacks.filter((y) => y === e.target.getAttribute("value"))
