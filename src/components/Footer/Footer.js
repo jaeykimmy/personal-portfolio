@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="footer">
       <div className="icons">
         {socialLinks.map((icon) => (
-          <a className="icon" href={icon.src}>
+          <a className="icon" href={icon.src} key={icon.name}>
             <img src={icon.img} alt="" />
           </a>
         ))}

@@ -40,18 +40,19 @@ export default function Works(props) {
             active={selected === item.id}
             setSelected={setSelected}
             id={item.id}
+            key={item.id}
           />
         ))}
       </ul>
       <div className="slider">
         {data.map((data) => (
-          <div className="container">
+          <div className="container" key={data.title}>
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className="icon-row" key={data.id}>
+                  <div className="icon-row">
                     {data.icons.map((icon) => (
-                      <div className="imgContainer">
+                      <div className="imgContainer" key={Math.random()}>
                         <img src={icon} alt="" />
                       </div>
                     ))}
