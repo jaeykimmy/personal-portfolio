@@ -115,6 +115,10 @@ export const iconimg = [
     name: "rails",
     src: railssvg,
   },
+  {
+    name: "mui",
+    src: muisvg,
+  },
 ];
 
 export const socialLinks = [
