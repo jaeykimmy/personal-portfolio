@@ -9,7 +9,7 @@ export default function Technolgies() {
     console.log("button pressed:", e.target.getAttribute("value"));
     setFilterTech(
       reactPortfolio.filter((x) =>
-        x.stacks.filter((y) => y === e.target.getAttribute("value"))
+        x.stacks.some((y) => y.includes(e.target.getAttribute("value")))
       )
     );
   };
