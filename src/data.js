@@ -17,10 +17,12 @@ import jungle from "./assets/jungle.png";
 import jestsvg from "./assets/jest-plain.svg";
 import storybooksvg from "./assets/storybook-original.svg";
 import muisvg from "./assets/materialui-plain.svg";
+import homesvg from "./assets/Home-icon.svg";
 export const webPortfolio = [
   {
     id: 1,
     icons: [expresssvg, nodejssvg, postgresqlsvg],
+    stacks: ["postgresql", "express", "nodejs"],
     title: "Pokemon Black Market",
     img: pbm,
     desc: "A pair-programmed end-to-end e-commerce application where users can (legally) buy and sell Pokemon",
@@ -29,6 +31,7 @@ export const webPortfolio = [
   {
     id: 2,
     icons: [expresssvg, nodejssvg],
+    stacks: ["express", "nodejs"],
     title: "Tweeter",
     img: tweet_text_box,
     desc: "Tweeter is a simple, single-page Twitter clone.",
@@ -37,6 +40,7 @@ export const webPortfolio = [
   {
     id: 3,
     icons: [postgresqlsvg, rubysvg, railssvg],
+    stacks: ["postgresql", "ruby", "rails"],
     title: "Jungle",
     img: jungle,
     desc: "A mini e-commerce application built with Rails 4.2 with PostgreSQL and Stripe API",
@@ -83,6 +87,10 @@ export const reactPortfolio = [
   },
 ];
 export const iconimg = [
+  {
+    name: "all",
+    src: homesvg,
+  },
   {
     name: "react",
     src: reactsvg,

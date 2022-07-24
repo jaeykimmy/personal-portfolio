@@ -22,7 +22,7 @@ function App() {
         <About />
         <Technologies />
         {/* <TagCloud /> */}
-        <Works />
+        {/* <Works /> */}
         {/* <Portfolio /> */}
         <Contact />
         <Footer />
