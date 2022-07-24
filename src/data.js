@@ -46,6 +46,7 @@ export const reactPortfolio = [
   {
     id: "1",
     icons: [reactsvg, postgresqlsvg, expresssvg, nodejssvg],
+    stacks: ["react", "postgresql", "express", "nodejs"],
     title: "Mentor Me",
     desc: "I completed a pair programming end-to-end React project using the PERN stack",
     img: "https://raw.githubusercontent.com/rosemaryku/mentor-me/main/docs/search.gif",
@@ -59,6 +60,7 @@ export const reactPortfolio = [
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg",
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/storybook/storybook-original.svg",
     ],
+    stacks: ["react", "postgresql", "jest", "storybook"],
     title: "Scheduler",
     desc: "An interview scheduling application where the user can book, delete and edit their appointments. Built with React, Cypress and Jest",
     img: schedulerDemoGif,
@@ -67,18 +69,20 @@ export const reactPortfolio = [
   {
     id: "3",
     icons: [reactsvg, nodejssvg],
+    stacks: ["react", "nodejs"],
     title: "Pokemon Speed Calculator",
     desc: "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
     img: speedCalcGif,
     src: "https://github.com/jaeykimmy/react-pokemon-calc",
   },
   {
-    id: 4,
+    id: "4",
     icons: [
       reactsvg,
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-plain.svg",
       nodejssvg,
     ],
+    stacks: ["react", "mui", "nodejs"],
     title: "Pokemon TCG Gallery",
     desc: "A real-time application to find your favourite Pokemon cards with high resolution images, prices and links to purchase from TCGplayer",
     img: pokemonTcg,

@@ -1,16 +1,19 @@
 import React from "react";
 import { useState } from "react";
 import "./Technologies.scss";
-import { iconimg } from "../../data";
+import { iconimg, webPortfolio, reactPortfolio } from "../../data";
 import Works from "../Works/Works";
 export default function Technolgies() {
   const [filterTech, setFilterTech] = useState("");
   const handleButton = (e) => {
+    console.log(e.target.getAttribute("value"));
     setFilterTech(
-      iconimg.filter((x) => x.name === e.target.getAttribute("value"))
+      reactPortfolio.filter((x) =>
+        x.stacks.filter((y) => y === e.target.getAttribute("value"))
+      )
     );
   };
-  console.log(filterTech[0]);
+  console.log(filterTech);
   return (
     <div className="technologies">
       <h1>Technologies</h1>
