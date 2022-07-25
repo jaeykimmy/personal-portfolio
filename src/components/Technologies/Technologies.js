@@ -22,11 +22,11 @@ export default function Technolgies() {
   console.log(filterTech);
   return (
     <div className="technologies">
-      <h2>Technologies</h2>
+      <h2>Portfolio {"&"} Stacks</h2>
       <h3>Filter By Stack</h3>
       <div className="icons">
         {iconimg.map((icon) => (
-          <button key={icon.name}>
+          <button key={icon.name} className="button">
             <img
               className="icon"
               src={icon.src}

@@ -33,7 +33,7 @@ export default function Works(props) {
   return (
     <div className="works" id="works">
       {/* we know from css that -100vw or 100vw changes the slide over left or right respectively */}
-      <h1>Works</h1>
+      {/* <h1>Works</h1> */}
       {/* <ul>
         {list.map((item) => (
           <PortfolioList
