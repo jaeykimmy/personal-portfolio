@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.546386b9.css",
-    "main.js": "/personal-portfolio/static/js/main.e2d02d51.js",
+    "main.css": "/personal-portfolio/static/css/main.66e9410b.css",
+    "main.js": "/personal-portfolio/static/js/main.d42bf381.js",
     "static/media/pokemontcg.gif": "/personal-portfolio/static/media/pokemontcg.faa3e1771138bc385722.gif",
     "static/media/speedcalc.gif": "/personal-portfolio/static/media/speedcalc.672b2b066c07d2e604fe.gif",
     "static/media/demo.gif": "/personal-portfolio/static/media/demo.8d6d11c359c2aa00fe25.gif",
@@ -26,11 +26,11 @@
     "index.html": "/personal-portfolio/index.html",
     "static/media/Home-icon.svg": "/personal-portfolio/static/media/Home-icon.9d2cf0db1e05d14948ef3b5e22b13b34.svg",
     "static/media/materialui-plain.svg": "/personal-portfolio/static/media/materialui-plain.7761422447c0e90181f76745ea89ab03.svg",
-    "main.546386b9.css.map": "/personal-portfolio/static/css/main.546386b9.css.map",
-    "main.e2d02d51.js.map": "/personal-portfolio/static/js/main.e2d02d51.js.map"
+    "main.66e9410b.css.map": "/personal-portfolio/static/css/main.66e9410b.css.map",
+    "main.d42bf381.js.map": "/personal-portfolio/static/js/main.d42bf381.js.map"
   },
   "entrypoints": [
-    "static/css/main.546386b9.css",
-    "static/js/main.e2d02d51.js"
+    "static/css/main.66e9410b.css",
+    "static/js/main.d42bf381.js"
   ]
 }
