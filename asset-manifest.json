@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.359c839c.css",
-    "main.js": "/personal-portfolio/static/js/main.5f9ad733.js",
+    "main.js": "/personal-portfolio/static/js/main.42137d08.js",
     "static/media/pokemontcg.gif": "/personal-portfolio/static/media/pokemontcg.faa3e1771138bc385722.gif",
     "static/media/speedcalc.gif": "/personal-portfolio/static/media/speedcalc.672b2b066c07d2e604fe.gif",
     "static/media/demo.gif": "/personal-portfolio/static/media/demo.8d6d11c359c2aa00fe25.gif",
@@ -27,10 +27,10 @@
     "static/media/Home-icon.svg": "/personal-portfolio/static/media/Home-icon.9d2cf0db1e05d14948ef3b5e22b13b34.svg",
     "static/media/materialui-plain.svg": "/personal-portfolio/static/media/materialui-plain.7761422447c0e90181f76745ea89ab03.svg",
     "main.359c839c.css.map": "/personal-portfolio/static/css/main.359c839c.css.map",
-    "main.5f9ad733.js.map": "/personal-portfolio/static/js/main.5f9ad733.js.map"
+    "main.42137d08.js.map": "/personal-portfolio/static/js/main.42137d08.js.map"
   },
   "entrypoints": [
     "static/css/main.359c839c.css",
-    "static/js/main.5f9ad733.js"
+    "static/js/main.42137d08.js"
   ]
 }
