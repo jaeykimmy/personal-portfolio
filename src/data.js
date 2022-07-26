@@ -26,7 +26,7 @@ export const webPortfolio = [
     title: "Pokemon Black Market",
     img: pbm,
     desc: "A pair-programmed end-to-end e-commerce application where users can (legally) buy and sell Pokemon",
-    src: "https://github.com/jaeykimmy/buy-sell-store-LHL",
+    github: "https://github.com/jaeykimmy/buy-sell-store-LHL",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ export const webPortfolio = [
     title: "Tweeter",
     img: tweet_text_box,
     desc: "Tweeter is a simple, single-page Twitter clone.",
-    src: "https://github.com/jaeykimmy/tweeter",
+    github: "https://github.com/jaeykimmy/tweeter",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ export const webPortfolio = [
     title: "Jungle",
     img: jungle,
     desc: "A mini e-commerce application built with Rails 4.2 with PostgreSQL and Stripe API",
-    src: "https://github.com/jaeykimmy/jungle-rails",
+    github: "https://github.com/jaeykimmy/jungle-rails",
   },
 ];
 
@@ -56,7 +56,7 @@ export const reactPortfolio = [
     title: "Mentor Me",
     desc: "I completed a pair programming end-to-end React project using the PERN stack",
     img: "https://raw.githubusercontent.com/rosemaryku/mentor-me/main/docs/search.gif",
-    src: "https://github.com/jaeykimmy/mentor_me",
+    github: "https://github.com/jaeykimmy/mentor_me",
   },
   {
     id: "2",
@@ -65,7 +65,7 @@ export const reactPortfolio = [
     title: "Scheduler",
     desc: "An interview scheduling application where the user can book, delete and edit their appointments. Built with React, Cypress and Jest",
     img: schedulerDemoGif,
-    src: "https://github.com/jaeykimmy/scheduler",
+    github: "https://github.com/jaeykimmy/scheduler",
   },
   {
     id: "3",
@@ -74,7 +74,7 @@ export const reactPortfolio = [
     title: "Pokemon Speed Calculator",
     desc: "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
     img: speedCalcGif,
-    src: "https://github.com/jaeykimmy/react-pokemon-calc",
+    github: "https://github.com/jaeykimmy/react-pokemon-calc",
   },
   {
     id: "4",
@@ -83,6 +83,7 @@ export const reactPortfolio = [
     title: "Pokemon TCG Gallery",
     desc: "A real-time application to find your favourite Pokemon cards with high resolution images, prices and links to purchase from TCGplayer",
     img: pokemonTcg,
+    github: "https://github.com/jaeykimmy/pokemontcg",
     src: "https://jaeykimmy.github.io/pokemontcg/",
   },
 ];
