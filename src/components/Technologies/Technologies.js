@@ -21,7 +21,7 @@ export default function Technolgies() {
   };
   console.log(filterTech);
   return (
-    <div className="technologies">
+    <div className="technologies" id="technologies">
       <h2>Portfolio {"&"} Stacks</h2>
       <h3>Filter By Stack</h3>
       <div className="icons">
