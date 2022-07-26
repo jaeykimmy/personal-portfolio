@@ -75,6 +75,7 @@ export const reactPortfolio = [
     desc: "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
     img: speedCalcGif,
     github: "https://github.com/jaeykimmy/react-pokemon-calc",
+    src: "https://jaeykimmy.github.io/react-pokemon-calc/",
   },
   {
     id: "4",
