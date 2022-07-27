@@ -18,6 +18,7 @@ import jestsvg from "./assets/jest-plain.svg";
 import storybooksvg from "./assets/storybook-original.svg";
 import muisvg from "./assets/materialui-plain.svg";
 import homesvg from "./assets/Home-icon.svg";
+import lyricfy from "./assets/lyricfy.gif";
 export const webPortfolio = [
   {
     id: 1,
@@ -86,6 +87,15 @@ export const reactPortfolio = [
     img: pokemonTcg,
     github: "https://github.com/jaeykimmy/pokemontcg",
     src: "https://jaeykimmy.github.io/pokemontcg/",
+  },
+  {
+    id: "5",
+    icons: [reactsvg, nodejssvg, expresssvg],
+    stacks: ["react", "nodejs", "express"],
+    title: "Lyricfy",
+    desc: "Lyricfy is a music app using Spotify's Developer API that instantaneously loads the lyrics to your favourite songs when playing",
+    img: lyricfy,
+    github: "https://github.com/jaeykimmy/spotify-clone",
   },
 ];
 export const iconimg = [
