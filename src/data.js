@@ -19,6 +19,8 @@ import storybooksvg from "./assets/storybook-original.svg";
 import muisvg from "./assets/materialui-plain.svg";
 import homesvg from "./assets/Home-icon.svg";
 import lyricfy from "./assets/lyricfy.gif";
+import calculator from "./assets/calculator.png";
+import todo from "./assets/todo.gif";
 export const webPortfolio = [
   {
     id: 1,
@@ -96,6 +98,26 @@ export const reactPortfolio = [
     desc: "Lyricfy is a music app using Spotify's Developer API that instantaneously loads the lyrics to your favourite songs when playing",
     img: lyricfy,
     github: "https://github.com/jaeykimmy/spotify-clone",
+  },
+  {
+    id: "6",
+    icons: [reactsvg, nodejssvg],
+    stacks: ["react", "nodejs"],
+    title: "React Calculator",
+    desc: "A simple calculator application using React hooks",
+    img: calculator,
+    github: "https://github.com/jaeykimmy/calc",
+    src: "https://jaeykimmy.github.io/calc/",
+  },
+  {
+    id: "7",
+    icons: [reactsvg, nodejssvg],
+    stacks: ["react", "nodejs"],
+    title: "React ToDo List",
+    desc: "A todo list to keep your daily tasks organized",
+    img: todo,
+    github: "https://github.com/jaeykimmy/todo",
+    src: "https://jaeykimmy.github.io/todo/",
   },
 ];
 export const iconimg = [
