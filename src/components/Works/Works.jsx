@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./Works.scss";
 import { reactPortfolio, webPortfolio } from "../../data";
 import PortfolioList from "../PortfolioList/PortfolioList";
+import { motion } from "framer-motion";
 
 export default function Works(props) {
   console.log(props.filterTech);
@@ -45,9 +46,21 @@ export default function Works(props) {
           />
         ))}
       </ul> */}
-      <div className="slider">
+      <motion.div
+        className="slider"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.5 }}
+      >
         {props.filterTech.map((data) => (
-          <div className="container" key={data.title}>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.5 }}
+            className="container"
+            key={data.title}
+            viewport={{ once: true }}
+          >
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
@@ -72,9 +85,9 @@ export default function Works(props) {
                 <img src={data.img} alt="" />
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 }

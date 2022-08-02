@@ -9,6 +9,7 @@ export default function About() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
+      viewport={{ once: true }}
     >
       <h1>About Me</h1>
       <p>

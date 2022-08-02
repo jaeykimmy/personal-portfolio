@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import "./Contact.scss";
 import emailjs from "@emailjs/browser";
 import rocket from "../../assets/rocket.svg";
+import { motion } from "framer-motion";
 
 export default function Contact() {
   const [message, setMessage] = useState(false);
@@ -30,10 +31,20 @@ export default function Contact() {
   };
   return (
     <div className="contact" id="contact">
-      <div className="left">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 1 }}
+        className="left"
+      >
         <img className="rocket" src={rocket} alt="" />
-      </div>
-      <div className="right">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 1.5 }}
+        className="right"
+      >
         <h2>Contact.</h2>
         <form onSubmit={sendEmail} ref={form}>
           <input type="text" placeholder="Subject" name="subject" required />
@@ -43,7 +54,7 @@ export default function Contact() {
           <input type="submit" className="redButton" value="Send" />
           {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form>
-      </div>
+      </motion.div>
     </div>
   );
 }

@@ -3,6 +3,8 @@ import { useState } from "react";
 import "./Technologies.scss";
 import { iconimg, webPortfolio, reactPortfolio } from "../../data";
 import Works from "../Works/Works";
+import { motion } from "framer-motion";
+
 export default function Technolgies() {
   const combinePortfolio = reactPortfolio.concat(webPortfolio);
   const [filterTech, setFilterTech] = useState(combinePortfolio);
@@ -21,7 +23,14 @@ export default function Technolgies() {
   };
   console.log(filterTech);
   return (
-    <div className="technologies" id="technologies">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.5 }}
+      viewport={{ once: true }}
+      className="technologies"
+      id="technologies"
+    >
       <h2>Portfolio {"&"} Stacks</h2>
       <h3>Filter By Stack</h3>
       <div className="icons">
@@ -38,6 +47,6 @@ export default function Technolgies() {
         ))}
       </div>
       <Works filterTech={filterTech} handleButton={handleButton} />
-    </div>
+    </motion.div>
   );
 }
