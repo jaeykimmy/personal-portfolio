@@ -8,6 +8,7 @@ export default function About() {
       id="about"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.5 }}
     >
       <h1>About Me</h1>
       <p>
