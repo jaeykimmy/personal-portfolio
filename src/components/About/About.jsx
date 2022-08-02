@@ -1,8 +1,14 @@
 import React from "react";
 import "./About.scss";
+import { motion } from "framer-motion";
 export default function About() {
   return (
-    <div className="about" id="about">
+    <motion.div
+      className="about"
+      id="about"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+    >
       <h1>About Me</h1>
       <p>
         I am a full stack web developer transitioning from an experienced
@@ -20,6 +26,6 @@ export default function About() {
         using MUI, Tailwind CSS, and SCSS to style my work based on industry
         standards.
       </p>
-    </div>
+    </motion.div>
   );
 }
