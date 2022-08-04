@@ -21,6 +21,7 @@ import homesvg from "./assets/Home-icon.svg";
 import lyricfy from "./assets/lyricfy.gif";
 import calculator from "./assets/calculator.png";
 import todo from "./assets/todo.gif";
+import typescriptsvg from "./assets/typescript-plain.svg";
 export const webPortfolio = [
   {
     id: 1,
@@ -160,6 +161,10 @@ export const iconimg = [
   {
     name: "mui",
     src: muisvg,
+  },
+  {
+    name: "typescript",
+    src: typescriptsvg,
   },
 ];
 
