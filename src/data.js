@@ -22,6 +22,7 @@ import lyricfy from "./assets/lyricfy.gif";
 import calculator from "./assets/calculator.png";
 import todo from "./assets/todo.gif";
 import typescriptsvg from "./assets/typescript-plain.svg";
+import horoscope from "./assets/horoscope.gif";
 export const webPortfolio = [
   {
     id: 1,
@@ -119,6 +120,16 @@ export const reactPortfolio = [
     img: todo,
     github: "https://github.com/jaeykimmy/todo",
     src: "https://jaeykimmy.github.io/todo/",
+  },
+  {
+    id: "8",
+    icons: [typescriptsvg, nodejssvg],
+    stacks: ["typescript", "nodejs"],
+    title: "React Horoscope Application",
+    desc: "What's in the stars for you today?",
+    img: horoscope,
+    github: "https://github.com/jaeykimmy/horoscope",
+    src: "https://jaeykimmy.github.io/horoscope/",
   },
 ];
 export const iconimg = [
