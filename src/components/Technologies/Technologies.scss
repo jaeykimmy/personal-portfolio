@@ -30,6 +30,10 @@
       border: transparent;
       cursor: pointer;
     }
+    .button:focus {
+      background-color: rgb(203, 203, 203);
+    }
+
     .icon {
       width: 50px;
       @include mobile {
