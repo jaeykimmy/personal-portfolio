@@ -23,6 +23,7 @@ import calculator from "./assets/calculator.png";
 import todo from "./assets/todo.gif";
 import typescriptsvg from "./assets/typescript-plain.svg";
 import horoscope from "./assets/horoscope.gif";
+import greatplace from "./assets/greatplace.gif";
 export const webPortfolio = [
   {
     id: 1,
@@ -130,6 +131,16 @@ export const reactPortfolio = [
     img: horoscope,
     github: "https://github.com/jaeykimmy/horoscope",
     src: "https://jaeykimmy.github.io/horoscope/",
+  },
+  {
+    id: "9",
+    icons: [reactsvg, nodejssvg],
+    stacks: ["react", "nodejs"],
+    title: "Great Places",
+    desc: "Find your new favourite spot with one quick search using Google Maps Places API",
+    img: greatplace,
+    github: "https://github.com/jaeykimmy/random-place",
+    src: "https://jaeykimmy-makes-great-sites.netlify.app/",
   },
 ];
 export const iconimg = [
