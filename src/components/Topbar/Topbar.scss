@@ -11,7 +11,7 @@
   transition: all 1s ease;
   overflow: hidden;
   .wrapper {
-    padding: 10px 30px;
+    padding: 4px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,11 +21,13 @@
       align-items: center;
 
       .logo {
-        font-size: 40px;
-        font-weight: 700;
+        font-size: 54px;
+        font-family: "Rubik Maze";
+        font-weight: 400;
         text-decoration: none;
-        color: #efd033; //stops link from turning purple upon click
+        color: #ffffff; //stops link from turning purple upon click
         margin-right: 40px;
+        align-items: center;
       }
       .itemContainer {
         display: flex;
@@ -55,7 +57,7 @@
         span {
           width: 100%;
           height: 3px;
-          background-color: #efd033;
+          background-color: #ffffff;
           transform-origin: left;
           transition: all 2s ease;
         }
