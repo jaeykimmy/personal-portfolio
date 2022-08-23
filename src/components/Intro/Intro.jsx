@@ -26,10 +26,10 @@ export default function Intro() {
           <h3>
             <span> Full Stack Developer</span>
           </h3>
+          <a href="#about">
+            <KeyboardArrowDownIcon className={"arrow"} />
+          </a>
         </div>
-        {/* <a href="#portfolio">
-          <KeyboardArrowDownIcon className={"arrow"} />
-        </a> */}
       </div>
     </motion.div>
   );
