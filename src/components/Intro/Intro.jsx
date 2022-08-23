@@ -14,12 +14,11 @@ export default function Intro() {
       transition={{ delay: 0.3 }}
       viewport={{ once: true }}
     >
-      <div className="left">
+      {/* <div className="left">
         <div className="imgContainer">
           <img src={clouds} alt="" />
         </div>
-        {/* <div className="clouds"></div> */}
-      </div>
+      </div> */}
       <div className="right">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
