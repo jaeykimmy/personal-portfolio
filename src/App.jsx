@@ -10,7 +10,7 @@ import Contact from "./components/Contact/Contact";
 import "./App.scss";
 import { useState } from "react";
 import Menu from "./components/Menu/Menu";
-
+import "./components/background.scss";
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
