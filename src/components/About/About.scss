@@ -8,14 +8,23 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  font-weight: 100;
+  font-weight: 300;
   @include mobile {
     width: 90%;
+  }
+  .card {
+    padding: 32px;
+    @include mobile {
+      padding: 16px;
+    }
+    background-color: #123;
+    color: #f7efef;
+    border-radius: 16px;
   }
   h1 {
     font-size: 3rem;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
