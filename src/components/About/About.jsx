@@ -12,6 +12,7 @@ export default function About() {
       viewport={{ once: true }}
     >
       <h1>About Me</h1>
+      <br />
       <p>
         I am a full stack web developer transitioning from an experienced
         healthcare worker role as an x-ray technologist. Due to my knack for
@@ -20,6 +21,7 @@ export default function About() {
         and bugs, I decided to leave my full-time role to work a career doing
         what I love - solving problems and making things.
       </p>
+      <br />
       <p>
         I have since worked to become proficient using React, Express,
         PostgreSQL and Node.js. I have experience in a pair programming setting

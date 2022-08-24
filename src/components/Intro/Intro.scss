@@ -108,9 +108,11 @@
       }
     }
     a {
-      position: absolute;
-      bottom: 64px;
       left: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      bottom: 0;
       .arrow {
         font-size: 50px;
         color: white;

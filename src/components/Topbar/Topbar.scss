@@ -7,9 +7,20 @@
   color: $mainColor;
   position: fixed;
   top: 0;
-  z-index: 3;
+  z-index: 100;
   transition: all 1s ease;
   overflow: hidden;
+  .visible {
+    /* display: flex; */
+    top: 0;
+    transition: top 0.4s ease-out;
+  }
+
+  .hidden {
+    // /* display: none; */
+    top: -70px;
+    transition: top 0.4s ease-out;
+  }
   .wrapper {
     padding: 4px 30px;
     display: flex;
@@ -67,7 +78,6 @@
   &.active {
     background-color: $mainColor;
     color: #efd033;
-
     .hamburger {
       span {
         &:first-child {

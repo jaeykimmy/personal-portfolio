@@ -1,6 +1,7 @@
 import React from "react";
 import "./Topbar.scss";
-
+import { useState, useEffect } from "react";
+import useScrollDirection from "../../helpers/useScrollDirection";
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={"topbar " + (menuOpen && "active")}>
