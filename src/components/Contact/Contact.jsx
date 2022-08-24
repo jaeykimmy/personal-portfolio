@@ -3,6 +3,7 @@ import "./Contact.scss";
 import emailjs from "@emailjs/browser";
 import rocket from "../../assets/rocket.svg";
 import { motion } from "framer-motion";
+import Rocket from "../Rocket/Rocket";
 
 export default function Contact() {
   const [message, setMessage] = useState(false);
@@ -37,7 +38,18 @@ export default function Contact() {
         transition={{ delay: 1 }}
         className="left"
       >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
         <img className="rocket" src={rocket} alt="" />
+        {/* <Rocket /> */}
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
@@ -52,7 +64,7 @@ export default function Contact() {
           <input type="text" placeholder="Email" name="email" required />
           <textarea placeholder="Message" name="message" required></textarea>
           <input type="submit" className="redButton" value="Send" />
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <p>Thanks, I'll reply ASAP :)</p>}
         </form>
       </motion.div>
     </div>

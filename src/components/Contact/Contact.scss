@@ -16,7 +16,7 @@
     align-items: center;
 
     .rocket {
-      height: 60%;
+      width: 20rem;
       animation: bounce 0.5s infinite;
       @include mobile {
         height: 250px;
@@ -94,7 +94,7 @@
         }
       }
 
-      span {
+      p {
         color: green;
       }
     }

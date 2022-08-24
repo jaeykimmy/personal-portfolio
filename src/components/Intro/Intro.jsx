@@ -19,12 +19,13 @@ export default function Intro() {
           <img src={clouds} alt="" />
         </div>
       </div> */}
+
       <div className="right">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
           <h1>Jaeyoung Kim</h1>
           <h3>
-            <span> Full Stack Developer</span>
+            <p> Full Stack Developer</p>
           </h3>
           <a href="#about">
             <KeyboardArrowDownIcon className={"arrow"} />

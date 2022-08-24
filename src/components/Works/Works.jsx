@@ -75,9 +75,9 @@ export default function Works(props) {
                   <p>{data.desc}</p>
                   <div className="links">
                     <a href={data.github}>
-                      <span>Github</span>
+                      <p>Github</p>
                     </a>
-                    <a href={data.src}>{data.src && <span>Link</span>}</a>
+                    <a href={data.src}>{data.src && <p>Link</p>}</a>
                   </div>
                 </div>
               </div>
