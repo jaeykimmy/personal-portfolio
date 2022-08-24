@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.43201238.css",
-    "main.js": "/personal-portfolio/static/js/main.48305eae.js",
+    "main.css": "/personal-portfolio/static/css/main.8dde29d8.css",
+    "main.js": "/personal-portfolio/static/js/main.d330983f.js",
     "static/media/pokemontcg.gif": "/personal-portfolio/static/media/pokemontcg.7ea98acd1e20de7875fe.gif",
     "static/media/lyricfy.gif": "/personal-portfolio/static/media/lyricfy.35622e971b873b63e764.gif",
     "static/media/greatplace.gif": "/personal-portfolio/static/media/greatplace.eb5ecfe9f3a2f04fb933.gif",
@@ -31,11 +31,11 @@
     "index.html": "/personal-portfolio/index.html",
     "static/media/Home-icon.svg": "/personal-portfolio/static/media/Home-icon.9d2cf0db1e05d14948ef3b5e22b13b34.svg",
     "static/media/materialui-plain.svg": "/personal-portfolio/static/media/materialui-plain.7761422447c0e90181f76745ea89ab03.svg",
-    "main.43201238.css.map": "/personal-portfolio/static/css/main.43201238.css.map",
-    "main.48305eae.js.map": "/personal-portfolio/static/js/main.48305eae.js.map"
+    "main.8dde29d8.css.map": "/personal-portfolio/static/css/main.8dde29d8.css.map",
+    "main.d330983f.js.map": "/personal-portfolio/static/js/main.d330983f.js.map"
   },
   "entrypoints": [
-    "static/css/main.43201238.css",
-    "static/js/main.48305eae.js"
+    "static/css/main.8dde29d8.css",
+    "static/js/main.d330983f.js"
   ]
 }
