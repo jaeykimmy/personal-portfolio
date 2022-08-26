@@ -17,14 +17,15 @@
     @include mobile {
       padding: 16px;
     }
-    background-color: #123;
+    background-color: rgba(6.67, 13.33, 20, 0.5);
     color: #f7efef;
     border-radius: 16px;
   }
-  h1 {
-    font-size: 3rem;
-  }
   p {
     font-size: 1.1rem;
+    opacity: 100%;
+  }
+  h1 {
+    font-size: 3rem;
   }
 }
