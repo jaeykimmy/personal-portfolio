@@ -142,6 +142,15 @@ export const reactPortfolio = [
     github: "https://github.com/jaeykimmy/random-place",
     src: "https://jaeykimmy-makes-great-sites.netlify.app/",
   },
+  {
+    id: "10",
+    icons: [reactsvg, nodejssvg],
+    stacks: ["react", "nodejs"],
+    title: "Hedera Minter",
+    desc: "Create your own NFT on Hedera's zero emission blockchain",
+    img: greatplace,
+    github: "https://github.com/jaeykimmy/hack-the-6ix-2022-react",
+  },
 ];
 export const iconimg = [
   {
