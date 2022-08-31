@@ -24,6 +24,8 @@ import todo from "./assets/todo.gif";
 import typescriptsvg from "./assets/typescript-plain.svg";
 import horoscope from "./assets/horoscope.gif";
 import greatplace from "./assets/greatplace.gif";
+import simplemint from "./assets/simplemint.gif";
+
 export const webPortfolio = [
   {
     id: 1,
@@ -85,8 +87,8 @@ export const reactPortfolio = [
   },
   {
     id: "4",
-    icons: [reactsvg, muisvg, nodejssvg],
-    stacks: ["react", "mui", "nodejs"],
+    icons: [reactsvg, muisvg, nodejssvg, typescriptsvg],
+    stacks: ["react", "mui", "nodejs", "typescript"],
     title: "Pokemon TCG Gallery",
     desc: "A real-time application to find your favourite Pokemon cards with high resolution images, prices and links to purchase from TCGplayer",
     img: pokemonTcg,
@@ -147,8 +149,8 @@ export const reactPortfolio = [
     icons: [reactsvg, nodejssvg],
     stacks: ["react", "nodejs"],
     title: "Hedera Minter",
-    desc: "Create your own NFT on Hedera's zero emission blockchain",
-    img: greatplace,
+    desc: "Create your own NFT on Hedera's carbon negative blockchain",
+    img: simplemint,
     github: "https://github.com/jaeykimmy/hack-the-6ix-2022-react",
   },
 ];
