@@ -1,7 +1,5 @@
-import mentorMeImgSrc from "./assets/mentorme.png";
-import speedCalc from "./assets/pokemoncalc.png";
 import pbm from "./assets/pbm.png";
-import interviewer from "./assets/interviewer.png";
+
 import tweet_text_box from "./assets/tweet-text-box.png";
 import pokemonTcg from "./assets/pokemontcg.gif";
 import speedCalcGif from "./assets/speedcalc.gif";
