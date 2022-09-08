@@ -24,12 +24,19 @@ export default function About() {
         </p>
         <br />
         <p>
-          I have since worked to become proficient using React, Express,
-          PostgreSQL and Node.js. I have experience in a pair programming
-          setting as well as using test driven development to ensure my code
-          stays performant and efficient. My expertise lies in front-end
-          development using MUI, Tailwind CSS, and SCSS to style my work based
-          on industry standards.
+          I recently participated in the Hack the 6ix 2022 hackathon and won
+          ‘Best Blockchain Project Using Hedera’. I was in charge of recruiting
+          each member of the group based on their respective strengths and
+          focussed on connecting the front and back end together. I spend my
+          time making personal coding projects using Javascript and
+          React/TypeScript, however as a quick learner I have interest in
+          learning any technology stacks I will need for the job including C,
+          C++, Java and Python. I keep up my Data Structure and Algorithms
+          skills by doing daily HackerRank and Codewars questions. I am a proven
+          team player with soft skills developed working as a healthcare
+          professional. With this experience, I am able to put customers first
+          in my work as well as collaborate with different departments to
+          deliver the best product possible.
         </p>
       </Card>
     </motion.div>
