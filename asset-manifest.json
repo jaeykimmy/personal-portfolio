@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.029a1c64.css",
-    "main.js": "/personal-portfolio/static/js/main.20fc9c90.js",
+    "main.css": "/personal-portfolio/static/css/main.bb33a3d3.css",
+    "main.js": "/personal-portfolio/static/js/main.a3d0d96d.js",
     "static/media/simplemint.gif": "/personal-portfolio/static/media/simplemint.e48657084f284438d63a.gif",
     "static/media/pokemontcg.gif": "/personal-portfolio/static/media/pokemontcg.7ea98acd1e20de7875fe.gif",
     "static/media/lyricfy.gif": "/personal-portfolio/static/media/lyricfy.35622e971b873b63e764.gif",
@@ -14,9 +14,6 @@
     "static/media/horoscope.gif": "/personal-portfolio/static/media/horoscope.8f7be9a22690e5e1ffdd.gif",
     "static/media/clouds.png": "/personal-portfolio/static/media/clouds.e2fa935722e18e968c6c.png",
     "static/media/todo.gif": "/personal-portfolio/static/media/todo.14d44d6be7c0a20f4ee5.gif",
-    "static/media/interviewer.png": "/personal-portfolio/static/media/interviewer.1a45c7e8633c98b54fcf.png",
-    "static/media/mentorme.png": "/personal-portfolio/static/media/mentorme.69e352918ac7996bd9c9.png",
-    "static/media/pokemoncalc.png": "/personal-portfolio/static/media/pokemoncalc.8b933b1deaf91e103041.png",
     "static/media/calculator.png": "/personal-portfolio/static/media/calculator.77da40272a56bc16be68.png",
     "static/media/postgresql-plain.svg": "/personal-portfolio/static/media/postgresql-plain.6fb83da449765ce30a34419a16f4533c.svg",
     "static/media/ruby-original.svg": "/personal-portfolio/static/media/ruby-original.0b2a0f98f2862dd9b67a14f245108848.svg",
@@ -32,11 +29,11 @@
     "index.html": "/personal-portfolio/index.html",
     "static/media/Home-icon.svg": "/personal-portfolio/static/media/Home-icon.9d2cf0db1e05d14948ef3b5e22b13b34.svg",
     "static/media/materialui-plain.svg": "/personal-portfolio/static/media/materialui-plain.7761422447c0e90181f76745ea89ab03.svg",
-    "main.029a1c64.css.map": "/personal-portfolio/static/css/main.029a1c64.css.map",
-    "main.20fc9c90.js.map": "/personal-portfolio/static/js/main.20fc9c90.js.map"
+    "main.bb33a3d3.css.map": "/personal-portfolio/static/css/main.bb33a3d3.css.map",
+    "main.a3d0d96d.js.map": "/personal-portfolio/static/js/main.a3d0d96d.js.map"
   },
   "entrypoints": [
-    "static/css/main.029a1c64.css",
-    "static/js/main.20fc9c90.js"
+    "static/css/main.bb33a3d3.css",
+    "static/js/main.a3d0d96d.js"
   ]
 }
