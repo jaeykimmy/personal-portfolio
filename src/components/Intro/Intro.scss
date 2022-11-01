@@ -51,77 +51,82 @@
       transform: rotateZ(-360deg);
     }
   }
-  .right {
-    flex: 0.5;
-    position: relative;
 
-    .wrapper {
-      width: 100%;
-      height: 100%;
-      padding-left: 50px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // animation: shimmy 10s infinite;
+    // animation-direction: alternate;
+    // @keyframes shimmy {
+    //   0% {
+    //     transform: translate(0, 0);
+    //   }
+    //   100% {
+    //     transform: translate(50%);
+    //   }
+    // }
+    @include mobile {
+      padding-left: 0;
+    }
+    h1 {
+      font-size: 60px;
+      margin: 10px 0;
+      color: #efd033;
+      text-indent: 30px;
 
       @include mobile {
-        padding-left: 0;
-      }
-      h1 {
-        font-size: 60px;
-        margin: 10px 0;
-        color: #efd033;
-        text-indent: 30px;
-
-        @include mobile {
-          font-size: 40px;
-        }
-      }
-      h2 {
-        font-size: 35px;
-        color: skyblue;
-        text-indent: 30px;
-
-        @include mobile {
-          font-size: 20px;
-        }
-      }
-      h3 {
-        color: skyblue;
-        font-size: 30px;
-        text-indent: 30px;
-        p {
-          animation: bounce 1s ease infinite alternate;
-        }
-        @keyframes bounce {
-          100% {
-            top: -20px;
-            text-shadow: 0 1px 0 grey, 0 2px 0 grey, 0 3px 0 grey, 0 4px 0 grey,
-              0 5px 0 grey, 0 50px 25px rgba(0, 0, 0, 0);
-          }
-        }
-        @include mobile {
-          font-size: 20px;
-        }
-      }
-      h4 {
-        color: #71bc68;
+        font-size: 40px;
       }
     }
-    a {
-      left: 40%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      bottom: 0;
-      .arrow {
-        font-size: 50px;
-        color: white;
-        animation: arrowBlink 2s infinite;
+    h2 {
+      font-size: 35px;
+      color: skyblue;
+      text-indent: 30px;
+
+      @include mobile {
+        font-size: 20px;
       }
-      @keyframes arrowBlink {
-        50% {
-          opacity: 0;
+    }
+    h3 {
+      color: skyblue;
+      font-size: 30px;
+      text-indent: 30px;
+      p {
+        animation: bounce 1s ease infinite alternate;
+      }
+      @keyframes bounce {
+        100% {
+          top: -20px;
+          text-shadow: 0 1px 0 grey, 0 2px 0 grey, 0 3px 0 grey, 0 4px 0 grey,
+            0 5px 0 grey, 0 50px 25px rgba(0, 0, 0, 0);
         }
+      }
+      @include mobile {
+        font-size: 20px;
+      }
+    }
+    h4 {
+      color: #71bc68;
+    }
+  }
+  a {
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    .arrow {
+      font-size: 50px;
+      color: white;
+      animation: arrowBlink 2s infinite;
+    }
+    @keyframes arrowBlink {
+      50% {
+        opacity: 0;
       }
     }
   }
