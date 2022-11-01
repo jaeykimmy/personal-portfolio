@@ -1,7 +1,7 @@
 import React from "react";
 import "./Intro.scss";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import clouds from "../../assets/clouds.png";
+
 import { motion } from "framer-motion";
 
 export default function Intro() {
@@ -26,9 +26,7 @@ export default function Intro() {
         <h3>
           <p> Full Stack Developer</p>
         </h3>
-        <a href="#about">
-          <KeyboardArrowDownIcon className={"arrow"} />
-        </a>
+        <a href="#about">Press Anywhere to Start</a>
       </div>
     </motion.div>
   );
