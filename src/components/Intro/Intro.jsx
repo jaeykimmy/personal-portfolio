@@ -14,20 +14,15 @@ export default function Intro() {
       transition={{ delay: 0.3 }}
       viewport={{ once: true }}
     >
-      {/* <div className="left">
-        <div className="imgContainer">
-          <img src={clouds} alt="" />
-        </div>
-      </div> */}
-
-      <div className="wrapper">
+      <a href="#about" className="wrapper">
         <h2>Hi There, I'm</h2>
         <h1>Jaeyoung Kim</h1>
-        <h3>
-          <p> Full Stack Developer</p>
-        </h3>
-        <a href="#about">Press Anywhere to Start</a>
-      </div>
+        <h2>Full Stack Developer</h2>
+        <br />
+        <br />
+
+        <h3>Press Anywhere to Start</h3>
+      </a>
     </motion.div>
   );
 }
