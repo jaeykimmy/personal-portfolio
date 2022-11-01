@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import rocket from "../../assets/rocket.svg";
 import { motion } from "framer-motion";
 import Rocket from "../Rocket/Rocket";
-
+import "../../spaceinvader.css";
 export default function Contact() {
   const [message, setMessage] = useState(false);
   const form = useRef();
@@ -48,7 +48,11 @@ export default function Contact() {
         <span></span>
         <span></span>
         <span></span>
-        <img className="rocket" src={rocket} alt="" />
+        <div className="space-invader space-invader-1 classic"></div>
+        <div className="space-invader space-invader-2 classic"></div>
+        <div className="space-invader space-invader-3 classic"></div>
+
+        {/* <img className="rocket" src={rocket} alt="" /> */}
         {/* <Rocket /> */}
       </motion.div>
       <motion.div
