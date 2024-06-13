@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.743ae9ae.css",
-    "main.js": "/personal-portfolio/static/js/main.b336f767.js",
+    "main.css": "/personal-portfolio/static/css/main.a5982eda.css",
+    "main.js": "/personal-portfolio/static/js/main.0678ef73.js",
     "static/media/simplemint.gif": "/personal-portfolio/static/media/simplemint.e48657084f284438d63a.gif",
     "static/media/pokemontcg.gif": "/personal-portfolio/static/media/pokemontcg.7ea98acd1e20de7875fe.gif",
     "static/media/lyricfy.gif": "/personal-portfolio/static/media/lyricfy.35622e971b873b63e764.gif",
@@ -13,6 +13,7 @@
     "static/media/jungle.png": "/personal-portfolio/static/media/jungle.6f242ff50906eb5efc5d.png",
     "static/media/horoscope.gif": "/personal-portfolio/static/media/horoscope.8f7be9a22690e5e1ffdd.gif",
     "static/media/todo.gif": "/personal-portfolio/static/media/todo.14d44d6be7c0a20f4ee5.gif",
+    "static/media/resume.pdf": "/personal-portfolio/static/media/resume.42eb0dc04c6742dbbd43.pdf",
     "static/media/calculator.png": "/personal-portfolio/static/media/calculator.77da40272a56bc16be68.png",
     "static/media/postgresql-plain.svg": "/personal-portfolio/static/media/postgresql-plain.6fb83da449765ce30a34419a16f4533c.svg",
     "static/media/ruby-original.svg": "/personal-portfolio/static/media/ruby-original.0b2a0f98f2862dd9b67a14f245108848.svg",
@@ -28,11 +29,11 @@
     "static/media/typescript-plain.svg": "/personal-portfolio/static/media/typescript-plain.76fe4b0a77bb1549ec20379b6a6d81f5.svg",
     "static/media/Home-icon.svg": "/personal-portfolio/static/media/Home-icon.9d2cf0db1e05d14948ef3b5e22b13b34.svg",
     "static/media/materialui-plain.svg": "/personal-portfolio/static/media/materialui-plain.7761422447c0e90181f76745ea89ab03.svg",
-    "main.743ae9ae.css.map": "/personal-portfolio/static/css/main.743ae9ae.css.map",
-    "main.b336f767.js.map": "/personal-portfolio/static/js/main.b336f767.js.map"
+    "main.a5982eda.css.map": "/personal-portfolio/static/css/main.a5982eda.css.map",
+    "main.0678ef73.js.map": "/personal-portfolio/static/js/main.0678ef73.js.map"
   },
   "entrypoints": [
-    "static/css/main.743ae9ae.css",
-    "static/js/main.b336f767.js"
+    "static/css/main.a5982eda.css",
+    "static/js/main.0678ef73.js"
   ]
 }
