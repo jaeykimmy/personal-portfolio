@@ -29,3 +29,21 @@
     font-size: 3rem;
   }
 }
+.trophybounce {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: bounce 0.5s infinite;
+  animation-direction: alternate;
+  @keyframes bounce {
+    0% {
+      transform: translatey(-2px);
+    }
+
+    100% {
+      transform: translatey(2px);
+    }
+  }
+}

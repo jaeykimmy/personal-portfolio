@@ -11,7 +11,7 @@ export default function Footer() {
             <img src={icon.img} alt="" />
           </a>
         ))}
-        <p>Copyright © Jaeyoung Kim 2022</p>
+        <p>Copyright © Jaeyoung Kim 2024</p>
       </div>
     </div>
   );

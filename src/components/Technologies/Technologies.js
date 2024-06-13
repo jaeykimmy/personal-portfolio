@@ -6,11 +6,10 @@ import Works from "../Works/Works";
 import { motion } from "framer-motion";
 
 export default function Technolgies() {
-  const combinePortfolio = reactPortfolio.concat(webPortfolio);
+  const combinePortfolio = [...reactPortfolio, ...webPortfolio];
   const [filterTech, setFilterTech] = useState(combinePortfolio);
-  // console.log(combinePortfolio);
+
   const handleButton = (e) => {
-    // console.log("button pressed:", e.target.getAttribute("value"));
     if (e.target.getAttribute("value") === "all") {
       setFilterTech(combinePortfolio);
     } else {
@@ -21,7 +20,6 @@ export default function Technolgies() {
       );
     }
   };
-  console.log(filterTech);
   return (
     <motion.div
       initial={{ opacity: 0 }}

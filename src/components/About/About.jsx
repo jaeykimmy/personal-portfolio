@@ -2,6 +2,8 @@ import React from "react";
 import "./About.scss";
 import { motion } from "framer-motion";
 import { Card } from "@mui/material";
+import resumePdf from "../../assets/resume.pdf";
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 export default function About() {
   return (
     <motion.div
@@ -16,14 +18,27 @@ export default function About() {
       <Card className="card">
         <p>
           I am a full stack web developer with emphasis on front-end work using
-          React and Javascript. Previously working as an x-ray technologist, I
-          was entrusted by my seniors to analyze software issues and mentored
-          students towards attaining their MRT certification. After 3 years of
-          working in healthcare, I decided to leave my full-time role to work a
-          career doing what I love - solving problems and making things.
+          React and Javascript. After 3 years of working in healthcare, I
+          decided to start anew and work a career doing what I love - solving
+          problems and making things.
         </p>
         <br />
-        <p>Check out some of my projects down below!</p>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            overflowY: "hidden",
+          }}
+        >
+          <p>This is everything I've accomplished so far -&gt; </p>
+          <div className="trophybounce">
+            <a style={{ color: "white" }} href={resumePdf}>
+              <EmojiEventsIcon fontSize="large" />
+            </a>
+          </div>
+        </div>
+        <br />
       </Card>
     </motion.div>
   );

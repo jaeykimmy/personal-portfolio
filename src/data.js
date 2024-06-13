@@ -23,7 +23,7 @@ import typescriptsvg from "./assets/typescript-plain.svg";
 import horoscope from "./assets/horoscope.gif";
 import greatplace from "./assets/greatplace.gif";
 import simplemint from "./assets/simplemint.gif";
-
+import resumePdf from "./assets/resume.pdf";
 export const webPortfolio = [
   {
     id: 1,
@@ -66,25 +66,6 @@ export const reactPortfolio = [
   },
   {
     id: "2",
-    icons: [reactsvg, expresssvg, jestsvg, storybooksvg],
-    stacks: ["react", "postgresql", "jest", "storybook"],
-    title: "Scheduler",
-    desc: "An interview scheduling application where the user can book, delete and edit their appointments. Built with React, Cypress and Jest",
-    img: schedulerDemoGif,
-    github: "https://github.com/jaeykimmy/scheduler",
-  },
-  {
-    id: "3",
-    icons: [reactsvg, nodejssvg],
-    stacks: ["react", "nodejs"],
-    title: "Pokemon Speed Calculator",
-    desc: "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
-    img: speedCalcGif,
-    github: "https://github.com/jaeykimmy/react-pokemon-calc",
-    src: "https://jaeykimmy.github.io/react-pokemon-calc/",
-  },
-  {
-    id: "4",
     icons: [reactsvg, muisvg, nodejssvg, typescriptsvg],
     stacks: ["react", "mui", "nodejs", "typescript"],
     title: "Pokemon TCG Gallery",
@@ -94,7 +75,36 @@ export const reactPortfolio = [
     src: "https://jaeykimmy.github.io/pokemontcg/",
   },
   {
+    id: "3",
+    icons: [reactsvg, nodejssvg],
+    stacks: ["react", "nodejs"],
+    title: "Hedera Minter",
+    desc: "Create your own NFT on Hedera's carbon negative blockchain",
+    img: simplemint,
+    github: "https://github.com/jaeykimmy/hack-the-6ix-2022-react",
+  },
+  {
+    id: "4",
+    icons: [reactsvg, expresssvg, jestsvg, storybooksvg],
+    stacks: ["react", "postgresql", "jest", "storybook"],
+    title: "Scheduler",
+    desc: "An interview scheduling application where the user can book, delete and edit their appointments. Built with React, Cypress and Jest",
+    img: schedulerDemoGif,
+    github: "https://github.com/jaeykimmy/scheduler",
+  },
+  {
     id: "5",
+    icons: [reactsvg, nodejssvg],
+    stacks: ["react", "nodejs"],
+    title: "Pokemon Speed Calculator",
+    desc: "A handy tool when playing Pokemon Showdown to determine which Pokemon is faster at any level or stat distribution",
+    img: speedCalcGif,
+    github: "https://github.com/jaeykimmy/react-pokemon-calc",
+    src: "https://jaeykimmy.github.io/react-pokemon-calc/",
+  },
+
+  {
+    id: "6",
     icons: [reactsvg, nodejssvg, expresssvg],
     stacks: ["react", "nodejs", "express"],
     title: "Lyricfy",
@@ -103,7 +113,7 @@ export const reactPortfolio = [
     github: "https://github.com/jaeykimmy/spotify-clone",
   },
   {
-    id: "6",
+    id: "7",
     icons: [reactsvg, nodejssvg],
     stacks: ["react", "nodejs"],
     title: "React Calculator",
@@ -113,7 +123,7 @@ export const reactPortfolio = [
     src: "https://jaeykimmy.github.io/calc/",
   },
   {
-    id: "7",
+    id: "8",
     icons: [reactsvg, nodejssvg],
     stacks: ["react", "nodejs"],
     title: "React ToDo List",
@@ -123,7 +133,7 @@ export const reactPortfolio = [
     src: "https://jaeykimmy.github.io/todo/",
   },
   {
-    id: "8",
+    id: "9",
     icons: [typescriptsvg, nodejssvg],
     stacks: ["typescript", "nodejs"],
     title: "React Horoscope Application",
@@ -133,7 +143,7 @@ export const reactPortfolio = [
     src: "https://jaeykimmy.github.io/horoscope/",
   },
   {
-    id: "9",
+    id: "10",
     icons: [reactsvg, nodejssvg],
     stacks: ["react", "nodejs"],
     title: "Great Places",
@@ -141,15 +151,6 @@ export const reactPortfolio = [
     img: greatplace,
     github: "https://github.com/jaeykimmy/random-place",
     src: "https://jaeykimmy-makes-great-sites.netlify.app/",
-  },
-  {
-    id: "10",
-    icons: [reactsvg, nodejssvg],
-    stacks: ["react", "nodejs"],
-    title: "Hedera Minter",
-    desc: "Create your own NFT on Hedera's carbon negative blockchain",
-    img: simplemint,
-    github: "https://github.com/jaeykimmy/hack-the-6ix-2022-react",
   },
 ];
 export const iconimg = [
@@ -173,26 +174,26 @@ export const iconimg = [
     name: "nodejs",
     src: nodejssvg,
   },
-  {
-    name: "jest",
-    src: jestsvg,
-  },
-  {
-    name: "storybook",
-    src: storybooksvg,
-  },
+  // {
+  //   name: "jest",
+  //   src: jestsvg,
+  // },
+  // {
+  //   name: "storybook",
+  //   src: storybooksvg,
+  // },
   {
     name: "ruby",
     src: rubysvg,
   },
-  {
-    name: "rails",
-    src: railssvg,
-  },
-  {
-    name: "mui",
-    src: muisvg,
-  },
+  // {
+  //   name: "rails",
+  //   src: railssvg,
+  // },
+  // {
+  //   name: "mui",
+  //   src: muisvg,
+  // },
   {
     name: "typescript",
     src: typescriptsvg,
@@ -212,7 +213,7 @@ export const socialLinks = [
   },
   {
     name: "resume",
-    src: "https://resume.creddle.io/resume/7i5eupblvtx",
+    src: resumePdf,
     img: resumesvg,
   },
 ];
